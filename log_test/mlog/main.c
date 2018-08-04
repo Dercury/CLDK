@@ -3,7 +3,7 @@
  *
  *       Filename:  main.c
  *
- *    Description:  test dlog
+ *    Description:  test mlog
  *
  *        Version:  1.0
  *        Created:  2016年10月01日 19时18分38秒
@@ -20,7 +20,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "dlog.h"
+#include "mlog.h"
 
 ModuleLogCfg g_module_cfg[] = 
 {
@@ -45,9 +45,9 @@ void read_file_to_log(char* filename, uint32_t module_id)
     {
         memset(line, 0, SINGLE_LOG_MAX_LEN);
         fgets(line, SINGLE_LOG_MAX_LEN, fp);
-        if (FUNC_OK != dlog_write(module_id, "%s", line))
+        if (FUNC_OK != mlog_write(module_id, "%s", line))
         {
-            printf("\r\n dlog write line'%s' fail", line);
+            printf("\r\n mlog write line'%s' fail", line);
             break;
         }
     }
@@ -68,9 +68,9 @@ void read_log_to_file(uint32_t module_id, char* filename)
 
     do
     {
-        if (FUNC_OK != dlog_read(module_id, buf, buf_len))
+        if (FUNC_OK != mlog_read(module_id, buf, buf_len))
         {
-            printf("\r\n dlog read module'%u' fail", module_id);
+            printf("\r\n mlog read module'%u' fail", module_id);
             break;
         }
 
@@ -98,7 +98,7 @@ int main(int argc, char** argv)
 
     assert (NULL != log_addr);
 
-    func_ret = dlog_init(log_addr, log_size, module_num, g_module_cfg);
+    func_ret = mlog_init(log_addr, log_size, module_num, g_module_cfg);
     if (FUNC_OK != func_ret)
     {
         printf("\r\n<%d> func_ret=%u", __LINE__, func_ret);
@@ -106,18 +106,18 @@ int main(int argc, char** argv)
         return func_ret;
     }
 
-    read_file_to_log("dlog.c", 0);
-    read_file_to_log("dlog.h", 1);
+    read_file_to_log("mlog.c", 0);
+    read_file_to_log("mlog.h", 1);
     read_file_to_log("main.c", 2);
 
-    read_log_to_file(0, "dlog_c.log");
-    read_log_to_file(1, "dlog_h.log");
+    read_log_to_file(0, "mlog_c.log");
+    read_log_to_file(1, "mlog_h.log");
     read_log_to_file(2, "main_c.log");
-    dlog_clear(2);
+    mlog_clear(2);
     read_log_to_file(2, "main_h.log");
 
-    dlog_uninit();
-    read_log_to_file(1, "dlog_i.log");
+    mlog_uninit();
+    read_log_to_file(1, "mlog_i.log");
     free(log_addr);
 
     return 0;

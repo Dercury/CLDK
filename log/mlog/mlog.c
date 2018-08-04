@@ -1,9 +1,9 @@
 /*
  * =====================================================================================
  *
- *       Filename:  dlog.c
+ *       Filename:  mlog.c
  *
- *    Description:  log record function source
+ *    Description:  memory log record function source
  *
  *        Version:  1.0
  *        Created:  2016年10月01日 17时04分08秒
@@ -20,7 +20,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "dlog.h"
+#include "mlog.h"
 
 /******************************************************************************/
 typedef struct tagModuleLogDesc
@@ -92,7 +92,7 @@ void get_time_str(char* buf, uint32_t buf_len)
 }
 
 /******************************************************************************/
-uint32_t dlog_init_check_para(void* log_addr, uint32_t log_size, uint32_t module_num, ModuleLogCfg* module_cfg)
+uint32_t mlog_init_check_para(void* log_addr, uint32_t log_size, uint32_t module_num, ModuleLogCfg* module_cfg)
 {
     uint32_t need_log_size = 0;
     uint32_t module_id = 0;
@@ -124,7 +124,7 @@ uint32_t dlog_init_check_para(void* log_addr, uint32_t log_size, uint32_t module
 /* If head tag and tail tag are both correct, log has been initialized. 
  * So there is no need to initialize it again. 
  */
-uint32_t dlog_init_check_tag(void* log_addr, uint32_t log_size)
+uint32_t mlog_init_check_tag(void* log_addr, uint32_t log_size)
 {
     uint32_t log_tag[LOG_TAG_DWORD_NUM] = {0};
 
@@ -146,7 +146,7 @@ uint32_t dlog_init_check_tag(void* log_addr, uint32_t log_size)
 }
 
 /******************************************************************************/
-void dlog_init_write_tag(void* log_addr, uint32_t log_size)
+void mlog_init_write_tag(void* log_addr, uint32_t log_size)
 {
     memcpy(log_addr, (void*)g_log_tag, g_log_tag_size);
     memcpy(LOG_TAIL_TAG_ADDR(log_addr, log_size), (void*)g_log_tag, g_log_tag_size);
@@ -155,7 +155,7 @@ void dlog_init_write_tag(void* log_addr, uint32_t log_size)
 }
 
 /******************************************************************************/
-void dlog_init_read_desc(void* log_addr, uint32_t log_size)
+void mlog_init_read_desc(void* log_addr, uint32_t log_size)
 {
     memcpy((void*)&g_log_desc, LOG_DESC_ADDR(log_addr, log_size), sizeof(g_log_desc));
 
@@ -163,7 +163,7 @@ void dlog_init_read_desc(void* log_addr, uint32_t log_size)
 }
 
 /******************************************************************************/
-void dlog_init_write_desc(void* log_addr, uint32_t log_size, uint32_t module_num)
+void mlog_init_write_desc(void* log_addr, uint32_t log_size, uint32_t module_num)
 {
     g_log_desc.log_addr = log_addr;
     g_log_desc.log_size = log_size;
@@ -174,7 +174,7 @@ void dlog_init_write_desc(void* log_addr, uint32_t log_size, uint32_t module_num
 }
 
 /******************************************************************************/
-void dlog_init_module_desc(void* log_addr, uint32_t log_size, uint32_t module_num, ModuleLogCfg* module_cfg)
+void mlog_init_module_desc(void* log_addr, uint32_t log_size, uint32_t module_num, ModuleLogCfg* module_cfg)
 {
     uint32_t module_id = 0;
     ModuleLogDesc module_desc;
@@ -210,35 +210,35 @@ void dlog_init_module_desc(void* log_addr, uint32_t log_size, uint32_t module_nu
 }
 
 /******************************************************************************/
-uint32_t dlog_init(void* log_addr, uint32_t log_size, uint32_t module_num, ModuleLogCfg* module_cfg)
+uint32_t mlog_init(void* log_addr, uint32_t log_size, uint32_t module_num, ModuleLogCfg* module_cfg)
 {
     uint32_t func_ret = FUNC_OK;
 
-    func_ret = dlog_init_check_para(log_addr, log_size, module_num, module_cfg);
+    func_ret = mlog_init_check_para(log_addr, log_size, module_num, module_cfg);
     if (FUNC_OK != func_ret)
     {
         return func_ret;
     }
 
-    func_ret = dlog_init_check_tag(log_addr, log_size);
+    func_ret = mlog_init_check_tag(log_addr, log_size);
     if (VALID == func_ret)
     {
         /* log has been initialized */
-        dlog_init_read_desc(log_addr, log_size);
+        mlog_init_read_desc(log_addr, log_size);
         return FUNC_OK;
     }
 
-    dlog_init_module_desc(log_addr, log_size, module_num, module_cfg);
-    dlog_init_write_desc(log_addr, log_size, module_num);
+    mlog_init_module_desc(log_addr, log_size, module_num, module_cfg);
+    mlog_init_write_desc(log_addr, log_size, module_num);
 
     /* write tag after init desc info to make sure init all ok */
-    dlog_init_write_tag(log_addr, log_size);
+    mlog_init_write_tag(log_addr, log_size);
 
     return FUNC_OK;
 }
 
 /******************************************************************************/
-void dlog_get_log_prefix(ModuleLogDesc* module_desc, char* prefix_buf, uint32_t buf_len)
+void mlog_get_log_prefix(ModuleLogDesc* module_desc, char* prefix_buf, uint32_t buf_len)
 {
     uint32_t cur_len = 0;
     char time_str[TIME_STR_LEN] = {0};
@@ -263,7 +263,7 @@ void dlog_get_log_prefix(ModuleLogDesc* module_desc, char* prefix_buf, uint32_t 
 }
 
 /******************************************************************************/
-void dlog_module_write_str(ModuleLogDesc* module_desc, char* log_str)
+void mlog_module_write_str(ModuleLogDesc* module_desc, char* log_str)
 {
     uint32_t empty_len = module_desc->base_addr + module_desc->log_size - module_desc->cur_addr;
     uint32_t log_len = strlen(log_str);
@@ -287,14 +287,14 @@ void dlog_module_write_str(ModuleLogDesc* module_desc, char* log_str)
 }
 
 /******************************************************************************/
-void dlog_module_write(uint32_t module_id, char* log_str)
+void mlog_module_write(uint32_t module_id, char* log_str)
 {
     ModuleLogDesc* module_desc = &g_module_log_desc[module_id];
     char log_prefix[LOG_PREFIX_LEN] = {0};
 
-    dlog_get_log_prefix(module_desc, log_prefix, LOG_PREFIX_LEN);
-    dlog_module_write_str(module_desc, log_prefix);
-    dlog_module_write_str(module_desc, log_str);
+    mlog_get_log_prefix(module_desc, log_prefix, LOG_PREFIX_LEN);
+    mlog_module_write_str(module_desc, log_prefix);
+    mlog_module_write_str(module_desc, log_str);
 
     module_desc->log_cnt++;
 
@@ -304,7 +304,7 @@ void dlog_module_write(uint32_t module_id, char* log_str)
     return;
 }
 /******************************************************************************/
-uint32_t dlog_write(uint32_t module_id, char* format, ...)
+uint32_t mlog_write(uint32_t module_id, char* format, ...)
 {
     char* log_buf = NULL;
     va_list argptr;
@@ -330,7 +330,7 @@ uint32_t dlog_write(uint32_t module_id, char* format, ...)
     }
     va_end(argptr);
 
-    dlog_module_write(module_id, log_buf);
+    mlog_module_write(module_id, log_buf);
 
     free(log_buf);
 
@@ -338,7 +338,7 @@ uint32_t dlog_write(uint32_t module_id, char* format, ...)
 }
 
 /******************************************************************************/
-uint32_t dlog_read(uint32_t module_id, char* buf, uint32_t buf_len)
+uint32_t mlog_read(uint32_t module_id, char* buf, uint32_t buf_len)
 {
     uint32_t cur_len = 0;
     uint32_t copy_len = 0;
@@ -383,7 +383,7 @@ uint32_t dlog_read(uint32_t module_id, char* buf, uint32_t buf_len)
 }
 
 /******************************************************************************/
-uint32_t dlog_clear(uint32_t module_id)
+uint32_t mlog_clear(uint32_t module_id)
 {
     ModuleLogDesc* module_desc = NULL;
 
@@ -403,7 +403,7 @@ uint32_t dlog_clear(uint32_t module_id)
 }
 
 /******************************************************************************/
-void dlog_uninit(void)
+void mlog_uninit(void)
 {
     if ((NULL != g_log_desc.log_addr) && (0 != g_log_desc.log_size))
     {

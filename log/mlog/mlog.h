@@ -1,9 +1,9 @@
 /*
  * =====================================================================================
  *
- *       Filename:  dlog.h
+ *       Filename:  mlog.h
  *
- *    Description:  log record function header
+ *    Description:  memory log record function header
  *
  *        Version:  1.0
  *        Created:  2016年10月01日 16时28分05秒
@@ -47,19 +47,19 @@ typedef struct tagModuleLogCfg
 
 /******************************************************************************/
 
-uint32_t dlog_init(void* log_addr, uint32_t log_size, uint32_t module_num, ModuleLogCfg* module_cfg);
+uint32_t mlog_init(void* log_addr, uint32_t log_size, uint32_t module_num, ModuleLogCfg* module_cfg);
 
 /******************************************************************************/
-uint32_t dlog_write(uint32_t module_id, char* format, ...);
+uint32_t mlog_write(uint32_t module_id, char* format, ...);
 
 /******************************************************************************/
-uint32_t dlog_read(uint32_t module_id, char* buf, uint32_t buf_len);
+uint32_t mlog_read(uint32_t module_id, char* buf, uint32_t buf_len);
 
 /******************************************************************************/
-uint32_t dlog_clear(uint32_t module_id);
+uint32_t mlog_clear(uint32_t module_id);
 
 /******************************************************************************/
-void dlog_uninit(void);
+void mlog_uninit(void);
 
 /******************************************************************************/
 #endif /* DLOG_H */
