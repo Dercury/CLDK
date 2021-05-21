@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T06:56:20.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="XqU0ffbdj3NnCBVrljVq" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-21T08:58:22.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="Yp26d9lUBLZTZUZIu3J0" version="14.6.13" type="github">
   <diagram id="R67lWWcYIzcq2cBP-e32" name="第 1 页">
     <mxGraphModel dx="4973" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
           <mxGeometry y="190" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="S7l5mnK8BEALIM2VFgE4-34" value="AstNVisitor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="327" width="230" height="130" as="geometry" />
+          <mxGeometry x="2150" y="327" width="230" height="156" as="geometry" />
         </mxCell>
         <mxCell id="S7l5mnK8BEALIM2VFgE4-35" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="S7l5mnK8BEALIM2VFgE4-34">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -43,8 +43,11 @@
         <mxCell id="S7l5mnK8BEALIM2VFgE4-37" value="+ iterate(AstNode*): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="S7l5mnK8BEALIM2VFgE4-34">
           <mxGeometry y="60" width="230" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="S7l5mnK8BEALIM2VFgE4-91" value="+ iterateAndNextNull(AstNode*): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="S7l5mnK8BEALIM2VFgE4-34">
+          <mxGeometry y="86" width="230" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="S7l5mnK8BEALIM2VFgE4-38" value="+ visit(AstXXX* nodep): virtual void&#xa;    astgen脚本生成V3Ast_gen_visitor.h" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" vertex="1" parent="S7l5mnK8BEALIM2VFgE4-34">
-          <mxGeometry y="86" width="230" height="44" as="geometry" />
+          <mxGeometry y="112" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="S7l5mnK8BEALIM2VFgE4-39" value="Call" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="S7l5mnK8BEALIM2VFgE4-37" target="S7l5mnK8BEALIM2VFgE4-33">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
