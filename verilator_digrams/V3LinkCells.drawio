@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T06:47:41.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="Pq5I3LeB2FMzSLT4WFWU" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-04T06:57:40.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="UkPAzy3x-lY_j8c71pS_" version="14.6.13" type="github">
   <diagram id="I5sImryGl6FJZrbQ-cl1" name="第 1 页">
-    <mxGraphModel dx="1301" dy="1423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="395" dy="1381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-1" value="V3LinkCells (final)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="60" width="300" height="60" as="geometry" />
+          <mxGeometry x="95" y="-120" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-1">
           <mxGeometry y="26" width="300" height="8" as="geometry" />
@@ -17,9 +17,9 @@
           <mxGeometry x="190" y="310" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-5">
-          <mxGeometry x="45" y="70" width="10" height="90" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="oFazUV7s3_X-ZEu1s_ES-7" value="实例化&lt;br&gt;(v3Global.rootp(), ......)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.1;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oFazUV7s3_X-ZEu1s_ES-4" target="oFazUV7s3_X-ZEu1s_ES-6">
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-7" value="实例化&lt;br&gt;(v3Global.rootp(),&lt;br&gt;......)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.1;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oFazUV7s3_X-ZEu1s_ES-4" target="oFazUV7s3_X-ZEu1s_ES-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="133.14285714285714" y="250" as="targetPoint" />
           </mxGeometry>
@@ -34,7 +34,7 @@
           <mxGeometry y="34" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-14" value="AstNVisitor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="-10" width="230" height="130" as="geometry" />
+          <mxGeometry x="130" y="-30" width="230" height="156" as="geometry" />
         </mxCell>
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-15" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-14">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -45,8 +45,11 @@
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-17" value="+ iterate(AstNode*): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-14">
           <mxGeometry y="60" width="230" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-57" value="+ iterateChildren(AstNode*): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-14">
+          <mxGeometry y="86" width="230" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-18" value="+ visit(AstXXX* nodep): virtual void&#xa;    astgen脚本生成V3Ast_gen_visitor.h" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-14">
-          <mxGeometry y="86" width="230" height="44" as="geometry" />
+          <mxGeometry y="112" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-19" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="oFazUV7s3_X-ZEu1s_ES-8" target="oFazUV7s3_X-ZEu1s_ES-14">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -66,6 +69,9 @@
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;dashPattern=1 1;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-31">
           <mxGeometry x="45" y="80" width="10" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;dashPattern=1 1;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-31">
+          <mxGeometry x="45" y="150" width="10" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-33" value="nodep&lt;br&gt;:AstNode" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="310" width="100" height="300" as="geometry" />
         </mxCell>
@@ -78,7 +84,7 @@
             <mxPoint x="436.05999999999995" y="412.9200000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oFazUV7s3_X-ZEu1s_ES-37" value="v.visit(this)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.2;exitY=0.807;entryX=0.967;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="oFazUV7s3_X-ZEu1s_ES-30" parent="1" target="oFazUV7s3_X-ZEu1s_ES-6">
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-37" value="v.visit(this)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.2;exitY=0.807;entryX=1.083;entryY=0.431;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="oFazUV7s3_X-ZEu1s_ES-30" parent="1" target="oFazUV7s3_X-ZEu1s_ES-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="440" as="targetPoint" />
             <mxPoint x="380" y="439.99999999999955" as="sourcePoint" />
@@ -148,6 +154,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="605" y="282" as="sourcePoint" />
             <mxPoint x="725" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-58" value="iterateChildren(nodep)" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;entryX=0.083;entryY=0.267;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.056;exitY=0.642;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oFazUV7s3_X-ZEu1s_ES-6" target="oFazUV7s3_X-ZEu1s_ES-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="471" as="sourcePoint" />
+            <mxPoint x="380.67" y="459.70999999999987" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
