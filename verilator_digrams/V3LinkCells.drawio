@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T03:19:22.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="HSwrGCUfEegPzsPkAe6a" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-04T03:45:47.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="GpjELu8TzdUmj-bg35AL" version="14.6.13" type="github">
   <diagram id="I5sImryGl6FJZrbQ-cl1" name="第 1 页">
-    <mxGraphModel dx="1640" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1504" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry y="34" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-5" value="visitor: LinkCellsVisitor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="320" width="100" height="300" as="geometry" />
+          <mxGeometry x="195" y="310" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-5">
           <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
@@ -30,7 +30,7 @@
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-8">
           <mxGeometry y="26" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="oFazUV7s3_X-ZEu1s_ES-10" value="+visit(AstNetlist*): virtual void " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-8">
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-10" value="+visit(AstNetlist* nodep): virtual void " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-8">
           <mxGeometry y="34" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oFazUV7s3_X-ZEu1s_ES-14" value="AstNVisitor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -52,6 +52,102 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="170" y="400" as="sourcePoint" />
             <mxPoint x="300" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-29" value="v3Global.rootp()&lt;br&gt;:AstNetlist*" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="310" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-29">
+          <mxGeometry x="45" y="50" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-31" value=":AstNVisitor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="310" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="390" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-33" value="nodep&lt;br&gt;:AstNode" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="390" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-36" value="iterate(nodep)" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;exitX=1.106;exitY=0.168;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="oFazUV7s3_X-ZEu1s_ES-32" parent="1" source="oFazUV7s3_X-ZEu1s_ES-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="412.9200000000001" as="sourcePoint" />
+            <mxPoint x="436.05999999999995" y="412.9200000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-37" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="581" as="targetPoint" />
+            <mxPoint x="370" y="580.9999999999995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-38" value="nodep-&amp;gt;accept(*this)" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;exitX=1.05;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oFazUV7s3_X-ZEu1s_ES-32" target="oFazUV7s3_X-ZEu1s_ES-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="261.05999999999995" y="413.44000000000005" as="sourcePoint" />
+            <mxPoint x="560" y="413" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-39" value="v-&amp;gt;visit(this)" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;exitX=0.994;exitY=0.408;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oFazUV7s3_X-ZEu1s_ES-34" target="oFazUV7s3_X-ZEu1s_ES-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="423" as="sourcePoint" />
+            <mxPoint x="700" y="423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-40" value="AstNetlist (final)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="62" width="180" height="188" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-41" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-40">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-42" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-40">
+          <mxGeometry y="52" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-43" value="+ accept(AstNVisitor &amp;): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-40">
+          <mxGeometry y="60" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-44" value="+ modulesp(): AstNodeModule*&#xa;    // op1 = List of modules" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-40">
+          <mxGeometry y="86" width="180" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-45" value="+ filesp(): AstNodeFile*&#xa;    // op2 = List of files" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-40">
+          <mxGeometry y="120" width="180" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-46" value="+ miscsp(): AstNode*&#xa;    // op3 = List of dtypes etc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-40">
+          <mxGeometry y="154" width="180" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-47" value="AstNode" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-228" width="230" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-47">
+          <mxGeometry y="26" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-49" value="+ nextp(): AstNode*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-47">
+          <mxGeometry y="34" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-50" value="+ backp(): AstNode*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-47">
+          <mxGeometry y="60" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-51" value="+ op1p(): AstNode*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-47">
+          <mxGeometry y="86" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-52" value="+ op2p(): AstNode*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-47">
+          <mxGeometry y="112" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-53" value="+ op3p(): AstNode*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-47">
+          <mxGeometry y="138" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-54" value="+ op4p(): AstNode*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-47">
+          <mxGeometry y="164" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-55" value="+ accept(AstNVisitor&amp; v): virtual void =0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" vertex="1" parent="oFazUV7s3_X-ZEu1s_ES-47">
+          <mxGeometry y="190" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oFazUV7s3_X-ZEu1s_ES-56" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="oFazUV7s3_X-ZEu1s_ES-40" target="oFazUV7s3_X-ZEu1s_ES-47">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="605" y="282" as="sourcePoint" />
+            <mxPoint x="725" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
