@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T06:43:54.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="cK92Z-htRPk7fLBYDJ1B" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T06:48:37.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="g9NbzjjhTmxRuRMaD7mF" version="14.6.13" type="github">
   <diagram id="LjrCR2icNRhnQb-nepyd" name="第 1 页">
     <mxGraphModel dx="-356" dy="-392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -123,6 +123,24 @@
         </mxCell>
         <mxCell id="brSOfn_hg27Ukbo5iZHU-41" value="+ argsp(): AstNode*&#xa;   op2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="brSOfn_hg27Ukbo5iZHU-37">
           <mxGeometry y="106" width="220" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="brSOfn_hg27Ukbo5iZHU-52" value="AstNodeFTaskRef" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="1120" width="220" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="brSOfn_hg27Ukbo5iZHU-53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="brSOfn_hg27Ukbo5iZHU-52">
+          <mxGeometry y="26" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="brSOfn_hg27Ukbo5iZHU-54" value="+ namep(): AstNode*&#xa;   op1 = name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="brSOfn_hg27Ukbo5iZHU-52">
+          <mxGeometry y="34" width="220" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="brSOfn_hg27Ukbo5iZHU-55" value="+ &#xa;   op2 = reserved for AstMethodCall" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="brSOfn_hg27Ukbo5iZHU-52">
+          <mxGeometry y="70" width="220" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="brSOfn_hg27Ukbo5iZHU-56" value="+ pinsp(): AstNode*&#xa;   op3 = pin interconnection list" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="brSOfn_hg27Ukbo5iZHU-52">
+          <mxGeometry y="106" width="220" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="brSOfn_hg27Ukbo5iZHU-57" value="+ scopeNamep(): AstScopeName*&#xa;   op4 = scope tracking" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="brSOfn_hg27Ukbo5iZHU-52">
+          <mxGeometry y="142" width="220" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
