@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T08:31:09.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="uZVGMCqQTBFXcln7gcv0" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T08:33:30.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="xdRMP6Hkd881BT2vPbZZ" version="14.7.6" type="github">
   <diagram id="LjrCR2icNRhnQb-nepyd" name="第 1 页">
     <mxGraphModel dx="16" dy="-192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -183,6 +183,12 @@
         </mxCell>
         <mxCell id="AzttNSrG_GSZGikdNRCH-4" value="+ stmtsp(): AstNode*&#xa;   op2 = 语句" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AzttNSrG_GSZGikdNRCH-1">
           <mxGeometry y="70" width="220" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="AzttNSrG_GSZGikdNRCH-7" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AzttNSrG_GSZGikdNRCH-1" target="brSOfn_hg27Ukbo5iZHU-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2540" y="1130" as="sourcePoint" />
+            <mxPoint x="1880" y="1008.0000000000001" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
