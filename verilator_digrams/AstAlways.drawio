@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T09:32:15.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="O4MOofclAAvWnldM7A_w" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T09:33:30.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="GnkTELGhr-apTu060ER7" version="14.7.6" type="github">
   <diagram id="ZFzpthJSprnk8D9yMa9Z" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
           <mxGeometry y="266" width="235" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NNSwcnHffDECImnnOeYG-48" value="VEdgeType (final)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="510" width="280" height="228" as="geometry" />
+          <mxGeometry x="40" y="564" width="280" height="228" as="geometry" />
         </mxCell>
         <mxCell id="NNSwcnHffDECImnnOeYG-49" value="- enum { ET_ILLEGAL, ET_ANYEDGE, ET_BOTHEDGE, ET_POSEDGE, ET_NEGEDGE, ET_HIGHEDGE, ET_LOWEDGE, ET_COMBO, ET_INITIAL, ET_SETTLE, ET_NEVER };" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="NNSwcnHffDECImnnOeYG-48">
           <mxGeometry y="26" width="280" height="64" as="geometry" />
@@ -108,6 +108,12 @@
         </mxCell>
         <mxCell id="NNSwcnHffDECImnnOeYG-52" value="+operator==(xxx): bool " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-48">
           <mxGeometry y="202" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NNSwcnHffDECImnnOeYG-56" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NNSwcnHffDECImnnOeYG-38" target="NNSwcnHffDECImnnOeYG-48">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="650" y="1065" as="sourcePoint" />
+            <mxPoint x="520" y="1040" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
