@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T01:10:27.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="39Qm21q5UCtFzOnDiesT" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T01:11:26.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="oNrXEEVYKeMmHx-q15Sd" version="14.7.6" type="github">
   <diagram id="UujlnHGYHNVCAIM1GUkF" name="第 1 页">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -591,6 +591,9 @@
         </mxCell>
         <mxCell id="r0mZw5IqI9Jmc-1Zj064-147" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;assign&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;sync_cpu_rd_n_pre&amp;nbsp;=&amp;nbsp;cpu_cs_n_ff3&amp;nbsp;?&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;1&#39;b0&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;:&amp;nbsp;((&amp;nbsp;~cpu_rd_n_ff3&amp;nbsp;)&amp;nbsp;&amp;amp;&amp;amp;&amp;nbsp;cpu_rd_n_ff4);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="1320" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r0mZw5IqI9Jmc-1Zj064-148" value="&amp;nbsp; &amp;nbsp; 1:2: ASSIGNW 0x2df4360  {g333ba} @dt=0@&lt;br&gt;&amp;nbsp; &amp;nbsp; 1:2:1: COND 0x2df42a0  {g333bp} @dt=0x2cc7f80@(G/w1)&lt;br&gt;&amp;nbsp; &amp;nbsp; 1:2:1:1: PARSEREF 0x2df2250  {g333bc}&amp;nbsp; cpu_cs_n_ff3 [TEXT]&lt;br&gt;&amp;nbsp; &amp;nbsp; 1:2:1:2: CONST 0x2df39f0  {g333br} @dt=0x2cc7f80@(G/w1)&amp;nbsp; 1&#39;h0&lt;br&gt;&amp;nbsp; &amp;nbsp; 1:2:1:3: LOGAND 0x2df4190  {g333cr} @dt=0x2cc8120@(G/nw1)&lt;br&gt;&amp;nbsp; &amp;nbsp; 1:2:1:3:1: NOT 0x2df3f00  {g333cb} @dt=0@&lt;br&gt;&amp;nbsp; &amp;nbsp; 1:2:1:3:1:1: PARSEREF 0x2df3e20  {g333cc}&amp;nbsp; cpu_rd_n_ff3 [TEXT]&lt;br&gt;&amp;nbsp; &amp;nbsp; 1:2:1:3:2: PARSEREF 0x2df40b0  {g333cu}&amp;nbsp; cpu_rd_n_ff4 [TEXT]&lt;br&gt;&amp;nbsp; &amp;nbsp; 1:2:2: PARSEREF 0x2df3700  {g333ai}&amp;nbsp; sync_cpu_rd_n_pre [TEXT" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1370" width="390" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
