@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T09:39:10.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="kRv2dIWWxDp-P9skdvy1" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T09:43:07.108Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="pTsBkFuB5mI-3PmK-9DD" version="14.7.6" type="github">
   <diagram id="ZFzpthJSprnk8D9yMa9Z" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2591" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,6 +126,27 @@
         </mxCell>
         <mxCell id="NNSwcnHffDECImnnOeYG-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NNSwcnHffDECImnnOeYG-7" target="NNSwcnHffDECImnnOeYG-28">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NNSwcnHffDECImnnOeYG-61" value="VAlwaysKwd (final)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="100" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NNSwcnHffDECImnnOeYG-62" value="- enum { ALWAYS, ALWAYS_FF, ALWAYS_LATCH, ALWAYS_COMB };" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="NNSwcnHffDECImnnOeYG-61">
+          <mxGeometry y="26" width="230" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NNSwcnHffDECImnnOeYG-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-61">
+          <mxGeometry y="60" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NNSwcnHffDECImnnOeYG-66" value="+ ascii(): char* " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-61">
+          <mxGeometry y="68" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NNSwcnHffDECImnnOeYG-65" value="+operator==(xxx): bool " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-61">
+          <mxGeometry y="94" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NNSwcnHffDECImnnOeYG-67" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NNSwcnHffDECImnnOeYG-2" target="NNSwcnHffDECImnnOeYG-61">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="765" y="528" as="sourcePoint" />
+            <mxPoint x="500" y="554" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
