@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T07:49:40.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="IFtX1Fgyn3NcKWEe1aXN" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T07:52:36.021Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="f3MAsebUKvU0NtYUy3Z9" version="14.7.6" type="github">
   <diagram id="UujlnHGYHNVCAIM1GUkF" name="第 1 页">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -778,26 +778,20 @@
             <mxPoint x="1870" y="998.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r0mZw5IqI9Jmc-1Zj064-209" value="AstPort (final)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="1196" width="190" height="218" as="geometry" />
-        </mxCell>
-        <mxCell id="r0mZw5IqI9Jmc-1Zj064-210" value="bison语法分析无法确定的引用，指向变量、函数或任务。在link阶段会替换成AstVarRef, AstTaskRef等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="r0mZw5IqI9Jmc-1Zj064-209">
-          <mxGeometry y="26" width="190" height="64" as="geometry" />
+        <mxCell id="r0mZw5IqI9Jmc-1Zj064-209" value="AstPort (final)&#xa;模块的输入输出端口" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=34;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1196" width="210" height="128" as="geometry" />
         </mxCell>
         <mxCell id="r0mZw5IqI9Jmc-1Zj064-211" value="- m_name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r0mZw5IqI9Jmc-1Zj064-209">
-          <mxGeometry y="90" width="190" height="26" as="geometry" />
+          <mxGeometry y="34" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="r0mZw5IqI9Jmc-1Zj064-212" value="- m_expect: VParseRefExp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r0mZw5IqI9Jmc-1Zj064-209">
-          <mxGeometry y="116" width="190" height="26" as="geometry" />
+        <mxCell id="r0mZw5IqI9Jmc-1Zj064-212" value="- m_pinNum: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r0mZw5IqI9Jmc-1Zj064-209">
+          <mxGeometry y="60" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r0mZw5IqI9Jmc-1Zj064-213" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="r0mZw5IqI9Jmc-1Zj064-209">
-          <mxGeometry y="142" width="190" height="8" as="geometry" />
+          <mxGeometry y="86" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="r0mZw5IqI9Jmc-1Zj064-214" value="+ lhsp(): AstNode*&#xa;    // op1 = List of statements" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r0mZw5IqI9Jmc-1Zj064-209">
-          <mxGeometry y="150" width="190" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="r0mZw5IqI9Jmc-1Zj064-215" value="+ ftaskrefp(): AstNode*&#xa;    // op2 = Function/task reference" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r0mZw5IqI9Jmc-1Zj064-209">
-          <mxGeometry y="184" width="190" height="34" as="geometry" />
+        <mxCell id="r0mZw5IqI9Jmc-1Zj064-214" value="+ exprp(): AstNode*&#xa;// op1=Expression connected to port" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r0mZw5IqI9Jmc-1Zj064-209">
+          <mxGeometry y="94" width="210" height="34" as="geometry" />
         </mxCell>
         <mxCell id="r0mZw5IqI9Jmc-1Zj064-216" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="r0mZw5IqI9Jmc-1Zj064-209" target="r0mZw5IqI9Jmc-1Zj064-197">
           <mxGeometry width="160" relative="1" as="geometry">
