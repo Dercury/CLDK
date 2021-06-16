@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T09:37:19.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="mypTQYJc83tVxYhChMov" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T09:39:10.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="kRv2dIWWxDp-P9skdvy1" version="14.7.6" type="github">
   <diagram id="ZFzpthJSprnk8D9yMa9Z" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -53,7 +53,7 @@
           <mxGeometry y="182" width="235" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NNSwcnHffDECImnnOeYG-37" value="AstSenItem (final)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="755" y="480" width="235" height="292" as="geometry" />
+          <mxGeometry x="755" y="480" width="235" height="300" as="geometry" />
         </mxCell>
         <mxCell id="NNSwcnHffDECImnnOeYG-38" value="- m_edgeType: VEdgeType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
           <mxGeometry y="26" width="235" height="24" as="geometry" />
@@ -64,16 +64,16 @@
         <mxCell id="NNSwcnHffDECImnnOeYG-40" value="+ sensp(): AstNode*&#xa;+ varrefp(): AstNodeVarRef*&#xa;   op1 = 敏感变量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
           <mxGeometry y="58" width="235" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="NNSwcnHffDECImnnOeYG-41" value="+ isClocked(): bool 包含clocked语句" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
+        <mxCell id="NNSwcnHffDECImnnOeYG-41" value="+ isClocked(): bool clocked语句" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
           <mxGeometry y="110" width="235" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NNSwcnHffDECImnnOeYG-42" value="+ isSettle(): bool  包含SETTLE敏感变量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
+        <mxCell id="NNSwcnHffDECImnnOeYG-42" value="+ isSettle(): bool  SETTLE敏感变量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
           <mxGeometry y="136" width="235" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NNSwcnHffDECImnnOeYG-43" value="+ isInitial(): bool 包含INITIAL敏感变量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
+        <mxCell id="NNSwcnHffDECImnnOeYG-43" value="+ isInitial(): bool INITIAL敏感变量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
           <mxGeometry y="162" width="235" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NNSwcnHffDECImnnOeYG-45" value="+ isCombo(): bool 包含COMBO敏感变量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
+        <mxCell id="NNSwcnHffDECImnnOeYG-45" value="+ isCombo(): bool COMBO敏感变量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
           <mxGeometry y="188" width="235" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NNSwcnHffDECImnnOeYG-44" value="+ isIllegal(): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
@@ -82,8 +82,8 @@
         <mxCell id="NNSwcnHffDECImnnOeYG-47" value="+ isNever(): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
           <mxGeometry y="240" width="235" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NNSwcnHffDECImnnOeYG-46" value="+ hasVar(): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
-          <mxGeometry y="266" width="235" height="26" as="geometry" />
+        <mxCell id="NNSwcnHffDECImnnOeYG-46" value="+ hasVar(): bool 不是COMBO, INITIAL, SETTLE, NEVER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="NNSwcnHffDECImnnOeYG-37">
+          <mxGeometry y="266" width="235" height="34" as="geometry" />
         </mxCell>
         <mxCell id="NNSwcnHffDECImnnOeYG-48" value="VEdgeType (final)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="544" width="280" height="254" as="geometry" />
