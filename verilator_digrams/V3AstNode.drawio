@@ -1,44 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T12:32:37.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="Su-XAWPfq71uAd2Ev81O" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T12:33:58.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="M5hxT2_tUXFO53vpSeJn" version="14.7.6" type="github">
   <diagram id="tki-AfUK3ZuuxOzUKFOR" name="第 1 页">
-    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5kDlmlk_hzpcu5QNNVva-1" value="AstNode" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="240" height="332" as="geometry" />
+          <mxGeometry x="40" y="40" width="320" height="386" as="geometry" />
         </mxCell>
         <mxCell id="5kDlmlk_hzpcu5QNNVva-148" value="- m_iterpp: AstNode**" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5kDlmlk_hzpcu5QNNVva-1" vertex="1">
-          <mxGeometry y="26" width="240" height="26" as="geometry" />
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5kDlmlk_hzpcu5QNNVva-135" value="- m_headtailp(): AstNode*&#xa;  头结点指向尾结点，尾结点指向头结点，&#xa;  中间结点指向null，单结点list指向自己" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5kDlmlk_hzpcu5QNNVva-1" vertex="1">
-          <mxGeometry y="52" width="240" height="54" as="geometry" />
+          <mxGeometry y="52" width="320" height="54" as="geometry" />
         </mxCell>
         <mxCell id="5kDlmlk_hzpcu5QNNVva-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="5kDlmlk_hzpcu5QNNVva-1" vertex="1">
-          <mxGeometry y="106" width="240" height="8" as="geometry" />
+          <mxGeometry y="106" width="320" height="8" as="geometry" />
         </mxCell>
         <mxCell id="5kDlmlk_hzpcu5QNNVva-3" value="+ nextp(): AstNode* 同父母的后一兄弟结点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5kDlmlk_hzpcu5QNNVva-1" vertex="1">
-          <mxGeometry y="114" width="240" height="26" as="geometry" />
+          <mxGeometry y="114" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5kDlmlk_hzpcu5QNNVva-4" value="+ backp(): AstNode* 头结点指向父母结点，&#xa;  其他节点指向前一兄弟结点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5kDlmlk_hzpcu5QNNVva-1" vertex="1">
-          <mxGeometry y="140" width="240" height="36" as="geometry" />
+          <mxGeometry y="140" width="320" height="36" as="geometry" />
         </mxCell>
         <mxCell id="5kDlmlk_hzpcu5QNNVva-5" value="+ op1p(): AstNode*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5kDlmlk_hzpcu5QNNVva-1" vertex="1">
-          <mxGeometry y="176" width="240" height="26" as="geometry" />
+          <mxGeometry y="176" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5kDlmlk_hzpcu5QNNVva-6" value="+ op2p(): AstNode*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5kDlmlk_hzpcu5QNNVva-1" vertex="1">
-          <mxGeometry y="202" width="240" height="26" as="geometry" />
+          <mxGeometry y="202" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5kDlmlk_hzpcu5QNNVva-7" value="+ op3p(): AstNode*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5kDlmlk_hzpcu5QNNVva-1" vertex="1">
-          <mxGeometry y="228" width="240" height="26" as="geometry" />
+          <mxGeometry y="228" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5kDlmlk_hzpcu5QNNVva-8" value="+ op4p(): AstNode*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5kDlmlk_hzpcu5QNNVva-1" vertex="1">
-          <mxGeometry y="254" width="240" height="26" as="geometry" />
+          <mxGeometry y="254" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7YHq567Tnn9M2xdq01sG-98" value="+ unlinkFrBackWithNext(AstNRelinker* linerp): AstNode*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5kDlmlk_hzpcu5QNNVva-1">
-          <mxGeometry y="280" width="240" height="26" as="geometry" />
+        <mxCell id="7YHq567Tnn9M2xdq01sG-98" value="+ unlinkFrBackWithNext(AstNRelinker* linerp): AstNode*&#xa;删除节点，包括next节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="5kDlmlk_hzpcu5QNNVva-1">
+          <mxGeometry y="280" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7YHq567Tnn9M2xdq01sG-99" value="+ unlinkFrBack(AstNRelinker* linerp): AstNode*&#xa;删除节点，不包括next节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="5kDlmlk_hzpcu5QNNVva-1">
+          <mxGeometry y="320" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5kDlmlk_hzpcu5QNNVva-9" value="+ accept(AstNVisitor&amp; v): virtual void =0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" parent="5kDlmlk_hzpcu5QNNVva-1" vertex="1">
-          <mxGeometry y="306" width="240" height="26" as="geometry" />
+          <mxGeometry y="360" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5kDlmlk_hzpcu5QNNVva-15" value="op2p" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;curved=1;entryPerimeter=0;" parent="1" source="5kDlmlk_hzpcu5QNNVva-10" target="5kDlmlk_hzpcu5QNNVva-12" edge="1">
           <mxGeometry relative="1" as="geometry">
