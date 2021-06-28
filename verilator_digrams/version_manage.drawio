@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T07:34:08.773Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="CHhtwMJTurnF5HJOtSby" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-28T08:29:51.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="Zb_hF34hQVhACPOijozM" version="14.7.6" type="github">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="simple gitflow">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -166,8 +166,8 @@
         <mxCell id="pv2ymricaX5ocXSavjqP-26" value="4.202" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;" vertex="1" parent="1">
           <mxGeometry x="97.5" y="430" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pv2ymricaX5ocXSavjqP-27" value="1.建议基于功能点合入，怎么做呢？&lt;br&gt;(1)整体的修改可以通过比较内部版本与官方版本的差异确定&lt;br&gt;&amp;nbsp; &amp;nbsp; 或者，应该在创建内部版本时，首先上传一次官方版本，然后再上传一次内部修改合入，而不是一次把官方版本和内部修改一把合入，这样比较容易明确内部修改点&lt;br&gt;(2)每个独立的内部修改怎么搞？&lt;br&gt;2.有冲突如何解决？&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="550" width="890" height="80" as="geometry" />
+        <mxCell id="pv2ymricaX5ocXSavjqP-27" value="1.建议基于功能点合入，怎么做呢？&lt;br&gt;(1)整体的修改可以通过比较内部版本与官方版本的差异确定&lt;br&gt;&amp;nbsp; &amp;nbsp; 或者，应该在创建内部版本时，首先上传一次官方版本，然后再上传一次内部修改合入，而不是一次把官方版本和内部修改一把合入，这样比较容易明确内部修改点&lt;br&gt;(2)每个独立的内部修改怎么搞？&lt;br&gt;2.有冲突如何解决？&lt;br&gt;3.有必要跟踪Verilator官方版本吗？能不能只更新相关的问题修改？" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="545" width="890" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
