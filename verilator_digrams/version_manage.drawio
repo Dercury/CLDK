@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T07:11:11.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="iRGM6eZUEBe5SOAWgPCG" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-28T07:13:31.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="broIhux552TuFC-f15rY" version="14.7.6" type="github">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="simple gitflow">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -140,7 +140,7 @@
             <mxPoint x="646" y="190" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pv2ymricaX5ocXSavjqP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#0000FF;" edge="1" parent="1" source="pv2ymricaX5ocXSavjqP-20" target="pv2ymricaX5ocXSavjqP-5">
+        <mxCell id="pv2ymricaX5ocXSavjqP-22" value="文件比较合入" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#0000FF;" edge="1" parent="1" source="pv2ymricaX5ocXSavjqP-20" target="pv2ymricaX5ocXSavjqP-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="434" y="390" />
@@ -154,7 +154,7 @@
         <mxCell id="pv2ymricaX5ocXSavjqP-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#006600;" vertex="1" parent="1">
           <mxGeometry x="665.75" y="300" width="114.25" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pv2ymricaX5ocXSavjqP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#006600;" edge="1" parent="1" source="pv2ymricaX5ocXSavjqP-23" target="pv2ymricaX5ocXSavjqP-16">
+        <mxCell id="pv2ymricaX5ocXSavjqP-24" value="文件比较合入" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#006600;" edge="1" parent="1" source="pv2ymricaX5ocXSavjqP-23" target="pv2ymricaX5ocXSavjqP-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="443.75" y="300" as="sourcePoint" />
             <mxPoint x="870" y="490" as="targetPoint" />
