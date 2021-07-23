@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T06:29:44.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="44Fer7DIPlDn7xTEllgX" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-23T06:47:03.345Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="shoM1GG-2z-9Ng35BNpl" version="14.8.4" type="github">
   <diagram id="IGmrRcJs-5kOvxcU8E9H" name="第 1 页">
-    <mxGraphModel dx="2591" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2571" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,6 +85,12 @@
         </mxCell>
         <mxCell id="jy8tWq2FMprEvK_Brc5D-32" value="+ candidateDefines(VSpellCheck*): static void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="jy8tWq2FMprEvK_Brc5D-23">
           <mxGeometry y="255" width="290" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jy8tWq2FMprEvK_Brc5D-33" value="friend" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="jy8tWq2FMprEvK_Brc5D-14" target="jy8tWq2FMprEvK_Brc5D-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1060" y="320" as="sourcePoint" />
+            <mxPoint x="-900" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
