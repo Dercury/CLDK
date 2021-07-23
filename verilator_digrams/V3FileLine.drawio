@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T08:48:47.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="awCAiA59y2BkreZpwQJc" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-23T09:00:07.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="JPvVEGRWqbcaPCvX7AXL" version="14.8.4" type="github">
   <diagram id="sfYAWN_819-ZRtIJ7BKl" name="第 1 页">
     <mxGraphModel dx="2591" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="UVDkIVhwBO7AHF0Bjt_--1" value="FileLine (final)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="400" width="290" height="279" as="geometry">
+          <mxGeometry x="-729" y="400" width="290" height="279" as="geometry">
             <mxRectangle x="-530" y="330" width="120" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -96,7 +96,7 @@
           <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
         <mxCell id="UVDkIVhwBO7AHF0Bjt_--44" value="FileLineSingleton (final)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="400" width="220" height="34" as="geometry">
+          <mxGeometry x="-1120" y="400" width="220" height="34" as="geometry">
             <mxRectangle x="-276.5" y="404" width="140" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -125,6 +125,32 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-925" y="410" as="sourcePoint" />
             <mxPoint x="-220" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UVDkIVhwBO7AHF0Bjt_--50" value="VFileContent (final)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="400" width="220" height="134" as="geometry">
+            <mxRectangle x="-276.5" y="404" width="140" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UVDkIVhwBO7AHF0Bjt_--52" value="- m_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UVDkIVhwBO7AHF0Bjt_--50">
+          <mxGeometry y="26" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="UVDkIVhwBO7AHF0Bjt_--53" value="- m_lines: std::deque&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UVDkIVhwBO7AHF0Bjt_--50">
+          <mxGeometry y="51" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="UVDkIVhwBO7AHF0Bjt_--51" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="UVDkIVhwBO7AHF0Bjt_--50">
+          <mxGeometry y="76" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UVDkIVhwBO7AHF0Bjt_--54" value="+ pushText(const string&amp; text): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UVDkIVhwBO7AHF0Bjt_--50">
+          <mxGeometry y="84" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="UVDkIVhwBO7AHF0Bjt_--55" value="+ getLine(int lineno): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UVDkIVhwBO7AHF0Bjt_--50">
+          <mxGeometry y="109" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="UVDkIVhwBO7AHF0Bjt_--56" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;" edge="1" parent="1" source="UVDkIVhwBO7AHF0Bjt_--2" target="UVDkIVhwBO7AHF0Bjt_--50">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="-840" y="425" as="sourcePoint" />
+            <mxPoint x="-620" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
