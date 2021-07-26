@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-26T07:17:50.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="0mv_T_a03fQl2GG_jWuo" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-26T08:27:40.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="ywZzQwUW9hdjzwYE0X7v" version="14.8.4" type="github">
   <diagram id="dEwAVk5H_p11wTZzzqWN" name="第 1 页">
     <mxGraphModel dx="1185" dy="1462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -171,61 +171,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-86" value="#define YY_INPUT(xxx) \&lt;br&gt;LEXP-&amp;gt;&lt;b&gt;inputToLex&lt;/b&gt;(buf, max_size)&lt;br&gt;#define LEXP V3PreLex::s_currentLexp" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1570" y="-240" width="220" height="40" as="geometry" />
+          <mxGeometry x="1570" y="-260" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-87" target="aLqruwpsdbwiLGUMoT0H-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-87" value="V3PreLex::inputToLex(buf, max_size)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1570" y="-160" width="220" height="40" as="geometry" />
+          <mxGeometry x="1570" y="-200" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-88" value="string front=curStreamp()-&amp;gt;m_buffers.front();&lt;br&gt;strncpy(buf, front.c_str(), xxx);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="-80" width="240" height="40" as="geometry" />
+          <mxGeometry x="1560" y="-140" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-94" target="aLqruwpsdbwiLGUMoT0H-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-94" value="V3PreLex::lex()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="-480" width="140" height="40" as="geometry" />
+          <mxGeometry x="1520" y="-460" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-95" target="aLqruwpsdbwiLGUMoT0H-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-95" value="V3PreProcImp::getRawToken()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="-560" width="160" height="40" as="geometry" />
+          <mxGeometry x="1510" y="-520" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-96" target="aLqruwpsdbwiLGUMoT0H-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-96" value="V3PreProcImp::getStateToken()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="-640" width="160" height="40" as="geometry" />
+          <mxGeometry x="1510" y="-580" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-97" target="aLqruwpsdbwiLGUMoT0H-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-97" value="V3PreProcImp::getFinalToken()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="-720" width="160" height="40" as="geometry" />
+          <mxGeometry x="1510" y="-640" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-98" target="aLqruwpsdbwiLGUMoT0H-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-98" value="V3PreProcImp::getline()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="-800" width="160" height="40" as="geometry" />
+          <mxGeometry x="1510" y="-700" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-105" value="string front=m_ppBuffers.front();&lt;br&gt;memcpy(buf, front.c_str(), xxx);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="-80" width="220" height="40" as="geometry" />
+          <mxGeometry x="2000" y="-140" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-106" target="aLqruwpsdbwiLGUMoT0H-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-106" value="V3ParseImp::flexPpInputToLex(buf, max_size)&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22V3PreLex%3A%3AinputToLex(buf%2C%20max_size)%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DTimes%20New%20Roman%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221570%22%20y%3D%22-160%22%20width%3D%22220%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;br&gt;V3ParseImp::ppInputToLex(buf, max_size)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1990" y="-160" width="240" height="40" as="geometry" />
+          <mxGeometry x="1990" y="-200" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-107" target="aLqruwpsdbwiLGUMoT0H-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-107" value="#define YY_INPUT(xxx) \&lt;br&gt;PARSEP-&amp;gt;&lt;b&gt;flexPpInputToLex&lt;/b&gt;(buf, max_size)&lt;br&gt;#define PARSEP V3ParseImp::parsep()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1990" y="-240" width="240" height="40" as="geometry" />
+          <mxGeometry x="1990" y="-260" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-108" target="aLqruwpsdbwiLGUMoT0H-107">
           <mxGeometry relative="1" as="geometry" />
@@ -254,13 +254,22 @@
           <mxGeometry x="1930" y="-560" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-119" value="V3ParseImp::tokenPipeline()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="-640" width="160" height="40" as="geometry" />
+          <mxGeometry x="1930" y="-620" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-120" value="#define yylex PARSEP-&amp;gt;tokenToBison&lt;br&gt;V3ParseImp::tokenToBison()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1910" y="-720" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-121" value="#define yylex PARSEP-&amp;gt;tokenToBison" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1930" y="-800" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-122" value="V3ParseImp::tokenPipelineSym()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="-670" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-123" value="V3PreShell::preproc(xxx)&lt;br&gt;V3PreProcImp::preproc(xxx)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="-760" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-124" value="V3ParseImp::parseFile(xxx)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="-820" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
