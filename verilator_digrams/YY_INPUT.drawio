@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-26T04:00:30.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="lp5BL9Ecw_HcdnMQr2l9" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-26T06:57:01.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="Ca-vSRM6dLBnPVuVjxZf" version="14.8.4" type="github">
   <diagram id="dEwAVk5H_p11wTZzzqWN" name="第 1 页">
     <mxGraphModel dx="1185" dy="1462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -215,8 +215,28 @@
         <mxCell id="aLqruwpsdbwiLGUMoT0H-105" value="string front=m_ppBuffers.front();&lt;br&gt;memcpy(buf, front.c_str(), xxx);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="2000" y="-80" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLqruwpsdbwiLGUMoT0H-106" value="V3ParseImp::ppInputToLex(buf, max_size)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="-160" width="220" height="40" as="geometry" />
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-106" value="V3ParseImp::flexPpInputToLex(buf, max_size)&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22V3PreLex%3A%3AinputToLex(buf%2C%20max_size)%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DTimes%20New%20Roman%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221570%22%20y%3D%22-160%22%20width%3D%22220%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;br&gt;V3ParseImp::ppInputToLex(buf, max_size)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="-160" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-107" value="#define YY_INPUT(xxx) \&lt;br&gt;PARSEP-&amp;gt;&lt;b&gt;flexPpInputToLex&lt;/b&gt;(buf, max_size)&lt;br&gt;#define PARSEP V3ParseImp::parsep()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="-240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-108" value="yy_get_next_buffer()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="-320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-109" target="aLqruwpsdbwiLGUMoT0H-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2200" y="-330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-109" value="static int yyinput(void)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="-400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-110" target="aLqruwpsdbwiLGUMoT0H-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-110" value="#define YY_DECL \&lt;br&gt;int yyFlexLexer::yylex()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="-400" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
