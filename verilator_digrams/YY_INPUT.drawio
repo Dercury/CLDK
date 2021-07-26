@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-26T03:45:57.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="nXOuzfbty3qozDGuTEOJ" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-26T03:46:49.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="txgPOzNJ_eIsSqJtA01o" version="14.8.4" type="github">
   <diagram id="dEwAVk5H_p11wTZzzqWN" name="第 1 页">
-    <mxGraphModel dx="569" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="1462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,17 +182,32 @@
         <mxCell id="aLqruwpsdbwiLGUMoT0H-88" value="string front=curStreamp()-&amp;gt;mbuffers.front();&lt;br&gt;strncpy(buf, front.c_str(), xxx);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1600" y="-80" width="220" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-94" target="aLqruwpsdbwiLGUMoT0H-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-94" value="V3PreLex::lex()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1520" y="-480" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-95" target="aLqruwpsdbwiLGUMoT0H-94">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-95" value="V3PreProcImp::getRawToken()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1510" y="-560" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-96" target="aLqruwpsdbwiLGUMoT0H-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-96" value="V3PreProcImp::getStateToken()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1510" y="-640" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-97" target="aLqruwpsdbwiLGUMoT0H-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-97" value="V3PreProcImp::getFinalToken()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1510" y="-720" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aLqruwpsdbwiLGUMoT0H-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=6;" edge="1" parent="1" source="aLqruwpsdbwiLGUMoT0H-98" target="aLqruwpsdbwiLGUMoT0H-97">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aLqruwpsdbwiLGUMoT0H-98" value="V3PreProcImp::getline()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1510" y="-800" width="160" height="40" as="geometry" />
