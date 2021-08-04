@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T02:07:51.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="4Hlmin_EZzxhEejDNv30" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-04T02:13:24.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="7sm0etyRK8uVqPfAYb1a" version="14.8.4" type="github">
   <diagram id="GiNqI1wSQbVntb9f-Yv_" name="第 1 页">
     <mxGraphModel dx="677" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -47,6 +47,48 @@
           <mxGeometry y="336" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pEwsT94KwdNvJjBN8cpX-15" value="+ parseDoule(string &amp;, bool*): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-2">
+          <mxGeometry y="362" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-16" value="VHashSha256 (final)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="280" height="388" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
+          <mxGeometry y="26" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-18" value="+ wildmatch(char*s, char*p): bool&#xa;   p是否用&#39;*&#39;或&#39;?&#39;匹配s" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
+          <mxGeometry y="34" width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-19" value="+ dot(string&amp;a, dot, b): string 用dot连接a,b" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
+          <mxGeometry y="70" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-20" value="+ downcase(string&amp;): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
+          <mxGeometry y="96" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-21" value="+ upcase(string &amp;): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
+          <mxGeometry y="122" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-22" value="+ quoteAny(string&amp; str, char tgt, char esc): string&#xa;   在str的每个等于tgt的前面增加esc, 用于字符转义" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
+          <mxGeometry y="148" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-23" value="+ quoteBackslash(string&amp; str): string&#xa;   quoteAny(str, &#39;\\&#39;, &#39;\\&#39;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
+          <mxGeometry y="180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-24" value="+ quotePercent(string&amp; str): string&#xa;   quoteAny(str, &#39;%&#39;, &#39;%&#39;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
+          <mxGeometry y="210" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-25" value="+ quoteStringLiteralForShell(string &amp;): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
+          <mxGeometry y="250" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-26" value="+ spaceUnprintable(string &amp;): string&#xa;   用空格替换空白符" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
+          <mxGeometry y="276" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-27" value="+ removeWhitespace(string &amp;): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
+          <mxGeometry y="310" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-28" value="+ isWhitespace(string &amp;): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
+          <mxGeometry y="336" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-29" value="+ parseDoule(string &amp;, bool*): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pEwsT94KwdNvJjBN8cpX-16">
           <mxGeometry y="362" width="280" height="26" as="geometry" />
         </mxCell>
       </root>
