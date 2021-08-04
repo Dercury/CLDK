@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T03:35:18.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="zbiR3aT3-W7a8dylFGX1" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-04T07:13:57.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="TgoYBw5muoavNm2HOCwp" version="14.8.4" type="github">
   <diagram id="GiNqI1wSQbVntb9f-Yv_" name="第 1 页">
     <mxGraphModel dx="677" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pEwsT94KwdNvJjBN8cpX-1" value="cvtToStr/cvtToHex 使用 sstream - ostringstream实现安全自动的类型转换" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pEwsT94KwdNvJjBN8cpX-1" value="cvtToStr/cvtToHex 使用 sstream - ostringstream实现安全自动的类型转换&lt;br&gt;参见https://blog.csdn.net/u013554213/article/details/89087653" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="30" width="470" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pEwsT94KwdNvJjBN8cpX-2" value="VString (final)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
