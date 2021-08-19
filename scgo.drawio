@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T10:11:11.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="8LdCwYSVqze_3aY3drOu" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T10:14:13.600Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="XHmuT7XiDDPy_HuwJo81" version="14.9.7" type="github">
   <diagram id="cXFaiR-M7mMCjgpAkLDr" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,24 +396,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-100" value="新建dosim.Routine" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1329" y="410" width="108" height="27" as="geometry" />
+          <mxGeometry x="1332.75" y="383" width="108" height="27" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-117" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-101" target="-j5esIaDe7Hmi_AwQub0-102">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-101" value="BindRoutine：添加SimEntries，并新建go协程" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1306.25" y="465" width="153.5" height="33" as="geometry" />
+          <mxGeometry x="1310" y="438" width="153.5" height="33" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-124" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-102" target="-j5esIaDe7Hmi_AwQub0-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-102" value="新建ClkPair加入数组" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1322" y="528" width="122" height="27" as="geometry" />
+          <mxGeometry x="1325.75" y="501" width="122" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="-j5esIaDe7Hmi_AwQub0-119" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-103" target="-j5esIaDe7Hmi_AwQub0-106">
+        <mxCell id="-j5esIaDe7Hmi_AwQub0-119" value="Y" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-103" target="-j5esIaDe7Hmi_AwQub0-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-j5esIaDe7Hmi_AwQub0-120" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-103" target="-j5esIaDe7Hmi_AwQub0-110">
+        <mxCell id="-j5esIaDe7Hmi_AwQub0-120" value="N" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-103" target="-j5esIaDe7Hmi_AwQub0-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-103" value="找到的pair的split标记" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
@@ -426,7 +426,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-104" value="pair.cout&amp;gt;=&lt;br&gt;SimManager.splitCount" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1427" y="623.5" width="137" height="51" as="geometry" />
+          <mxGeometry x="1424" y="593" width="137" height="51" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-128" value="N" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-94" target="-j5esIaDe7Hmi_AwQub0-92">
           <mxGeometry relative="1" as="geometry" />
@@ -438,46 +438,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-105" value="置起pair的split标记" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1434.5" y="707" width="122" height="27" as="geometry" />
+          <mxGeometry x="1431.5" y="676.5" width="122" height="27" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-121" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.195;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-106" target="-j5esIaDe7Hmi_AwQub0-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-106" value="新建dosim.Routine" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1532.74" y="444" width="108" height="27" as="geometry" />
+          <mxGeometry x="1532.74" y="420" width="108" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="-j5esIaDe7Hmi_AwQub0-126" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-107" target="-j5esIaDe7Hmi_AwQub0-104">
+        <mxCell id="-j5esIaDe7Hmi_AwQub0-126" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-107" target="-j5esIaDe7Hmi_AwQub0-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-107" value="BindRoutine：添加SimEntries，并新建go协程" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1509.99" y="547" width="153.5" height="33" as="geometry" />
+          <mxGeometry x="1509.99" y="523" width="153.5" height="33" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-122" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-108" target="-j5esIaDe7Hmi_AwQub0-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-108" value="更新pair: routine，count归1，清除split标记" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1514.37" y="493" width="144.75" height="31" as="geometry" />
+          <mxGeometry x="1514.37" y="469" width="144.75" height="31" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-109" value="pair.count表示pair内routine的host个数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1676" y="663" width="120" height="55" as="geometry" />
+          <mxGeometry x="1646" y="641" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-123" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-110" target="-j5esIaDe7Hmi_AwQub0-111">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-110" value="pair的routine增加method.Host" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="459" width="108" height="27" as="geometry" />
+          <mxGeometry x="1720" y="450" width="108" height="27" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-127" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-j5esIaDe7Hmi_AwQub0-111" target="-j5esIaDe7Hmi_AwQub0-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-111" value="增加pair.count" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="515" width="108" height="27" as="geometry" />
+          <mxGeometry x="1720" y="506" width="108" height="27" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-130" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1329" y="153.5" width="66" height="33" as="geometry" />
         </mxCell>
         <mxCell id="-j5esIaDe7Hmi_AwQub0-131" value="null" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1313" y="707" width="29" height="27" as="geometry" />
+          <mxGeometry x="1310" y="676.5" width="29" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
