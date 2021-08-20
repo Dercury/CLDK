@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T01:39:39.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="cxEnRvxhtLIoReiDxMrm" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-20T01:41:37.597Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="8y3AJgmXuC2q0USOAzXa" version="14.9.7" type="github">
   <diagram id="cXFaiR-M7mMCjgpAkLDr" name="第 1 页">
-    <mxGraphModel dx="1673" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -585,7 +585,7 @@
         <mxCell id="SKbaHKgdaT2-RbnQXm6t-35" value="Module" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="250" y="1976" width="98" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SKbaHKgdaT2-RbnQXm6t-36" value="SimManager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1;gradientColor=#97d077;" vertex="1" parent="1">
+        <mxCell id="SKbaHKgdaT2-RbnQXm6t-36" value="SimManager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1;gradientColor=#97d077;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="245.5" y="1841" width="231" height="97.5" as="geometry" />
         </mxCell>
         <mxCell id="SKbaHKgdaT2-RbnQXm6t-37" value="Event" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;gradientColor=#7ea6e0;" vertex="1" parent="1">
@@ -671,6 +671,9 @@
         </mxCell>
         <mxCell id="SKbaHKgdaT2-RbnQXm6t-74" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.tailedNotchedArrow;dy1=8.82;dx1=47.35;notch=20;arrowHead=11.29;dx2=19.88;dy2=23.35;fontFamily=Times New Roman;fontSize=24;strokeColor=#EA6B66;strokeWidth=1;fillColor=#E6D0DE;rotation=180;" vertex="1" parent="1">
           <mxGeometry x="480" y="2112" width="192" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKbaHKgdaT2-RbnQXm6t-75" value="调度器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;fontStyle=1;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="301" y="1882.5" width="120" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
