@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T09:21:54.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="4ZSAVGG5U1ycTSFZHfwP" version="16.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-27T09:25:11.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="4oGDy7NB9bbBxhctzAZQ" version="16.1.0" type="github" pages="2">
   <diagram id="NaEb7eJQa-QKAy5xCqQO" name="首次">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -119,6 +119,9 @@
         </mxCell>
         <mxCell id="dx_ddpeeLUTxoh0tbrBt-5" value="master分支" style="swimlane;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="dx_ddpeeLUTxoh0tbrBt-4">
           <mxGeometry x="25" y="40" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Vym-DVchjDz_21WHZjFu-0" value="release分支" style="swimlane;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="dx_ddpeeLUTxoh0tbrBt-4">
+          <mxGeometry x="25" y="130" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="dx_ddpeeLUTxoh0tbrBt-6" value="MergeRequest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="dx_ddpeeLUTxoh0tbrBt-2" source="dx_ddpeeLUTxoh0tbrBt-7" target="dx_ddpeeLUTxoh0tbrBt-4">
           <mxGeometry relative="1" as="geometry" />
