@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T08:48:11.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="sf2ixpUipbo64i7iq5_Z" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T08:50:20.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="z63qq2CcqBjbLLfNI3IZ" version="16.1.0" type="github">
   <diagram id="NaEb7eJQa-QKAy5xCqQO" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -46,6 +46,12 @@
         </mxCell>
         <mxCell id="h9Qk-xgom7_sQPxiCuEm-18" value="master分支" style="swimlane;" vertex="1" parent="h9Qk-xgom7_sQPxiCuEm-17">
           <mxGeometry x="25" y="40" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Qk-xgom7_sQPxiCuEm-21" value="checkout/switch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="h9Qk-xgom7_sQPxiCuEm-6" source="h9Qk-xgom7_sQPxiCuEm-16" target="h9Qk-xgom7_sQPxiCuEm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Qk-xgom7_sQPxiCuEm-19" value="clone" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h9Qk-xgom7_sQPxiCuEm-8" target="h9Qk-xgom7_sQPxiCuEm-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
