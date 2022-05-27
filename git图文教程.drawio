@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T10:08:12.905Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="4JlSLhsZIcIr8NTWrSUq" version="16.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-27T10:10:44.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="nkmtb2dY_SB2uu2k_GFr" version="16.1.0" type="github" pages="2">
   <diagram id="NaEb7eJQa-QKAy5xCqQO" name="首次">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -143,6 +143,9 @@
         <mxCell id="dx_ddpeeLUTxoh0tbrBt-11" value="master分支" style="swimlane;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="dx_ddpeeLUTxoh0tbrBt-10">
           <mxGeometry x="25" y="40" width="150" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="Xq-VCgiEo3PaVaqFE7VM-1" value="release分支" style="swimlane;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="dx_ddpeeLUTxoh0tbrBt-10">
+          <mxGeometry x="25" y="130" width="150" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="dx_ddpeeLUTxoh0tbrBt-12" value="工作区" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="dx_ddpeeLUTxoh0tbrBt-9">
           <mxGeometry x="640" y="50" width="200" height="220" as="geometry" />
         </mxCell>
@@ -175,12 +178,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dx_ddpeeLUTxoh0tbrBt-21" value="track" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;strokeColor=#FF00FF;fontColor=#FF00FF;" edge="1" parent="dx_ddpeeLUTxoh0tbrBt-1" source="dx_ddpeeLUTxoh0tbrBt-11" target="dx_ddpeeLUTxoh0tbrBt-8">
+        <mxCell id="dx_ddpeeLUTxoh0tbrBt-21" value="track" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;strokeColor=#FF00FF;fontColor=#FF00FF;startArrow=none;" edge="1" parent="dx_ddpeeLUTxoh0tbrBt-1" source="Xq-VCgiEo3PaVaqFE7VM-2" target="dx_ddpeeLUTxoh0tbrBt-8">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="310" y="430" />
-              <mxPoint x="540" y="430" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dx_ddpeeLUTxoh0tbrBt-22" value="remote (origin)" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#9933FF;strokeColor=#9933FF;" edge="1" parent="dx_ddpeeLUTxoh0tbrBt-1" source="dx_ddpeeLUTxoh0tbrBt-10" target="dx_ddpeeLUTxoh0tbrBt-7">
@@ -205,6 +205,28 @@
         </mxCell>
         <mxCell id="Xq-VCgiEo3PaVaqFE7VM-0" value="同步remote信息&lt;br style=&quot;font-size: 14px;&quot;&gt;git remote add upstream XXXX&lt;br style=&quot;font-size: 14px;&quot;&gt;git remote -v&lt;br style=&quot;font-size: 14px;&quot;&gt;git remote update&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;从upstream检出新分支&lt;br style=&quot;font-size: 14px;&quot;&gt;git checkout -b NewBranch upstream/NewBranch&lt;br style=&quot;font-size: 14px;&quot;&gt;推送新分支到origin，同时设置后续跟踪origin的分支&lt;br style=&quot;font-size: 14px;&quot;&gt;git push -u origin NewBranch&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;删除分支&lt;br style=&quot;font-size: 14px;&quot;&gt;git branch -d NewBranch&lt;br style=&quot;font-size: 14px;&quot;&gt;git branch -rd origin/NewBranch&lt;br style=&quot;font-size: 14px;&quot;&gt;git branch -rd upstream/NewBranch" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=14;" vertex="1" parent="dx_ddpeeLUTxoh0tbrBt-1">
           <mxGeometry x="740" y="60" width="410" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq-VCgiEo3PaVaqFE7VM-2" value="release分支" style="swimlane;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="dx_ddpeeLUTxoh0tbrBt-1">
+          <mxGeometry x="465" y="220" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq-VCgiEo3PaVaqFE7VM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;strokeColor=#FF00FF;fontColor=#FF00FF;endArrow=none;" edge="1" parent="dx_ddpeeLUTxoh0tbrBt-1" source="dx_ddpeeLUTxoh0tbrBt-11" target="Xq-VCgiEo3PaVaqFE7VM-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="550" as="sourcePoint" />
+            <mxPoint x="540" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="430" />
+              <mxPoint x="540" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xq-VCgiEo3PaVaqFE7VM-4" value="checkout -b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF6666;strokeColor=#FF6666;dashed=1;dashPattern=1 2;strokeWidth=4;" edge="1" parent="dx_ddpeeLUTxoh0tbrBt-1" source="Vym-DVchjDz_21WHZjFu-0" target="Xq-VCgiEo3PaVaqFE7VM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq-VCgiEo3PaVaqFE7VM-5" value="push -u" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;fontSize=14;fontColor=#FF6666;strokeColor=#FF6666;strokeWidth=4;" edge="1" parent="dx_ddpeeLUTxoh0tbrBt-1" source="Xq-VCgiEo3PaVaqFE7VM-1">
+          <mxGeometry x="0.1786" relative="1" as="geometry">
+            <mxPoint x="560" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
