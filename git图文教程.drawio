@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T10:00:30.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="x3KAI6JPcBZNiiIRHmvX" version="16.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-27T10:05:50.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="To6d4KtnccJ17Czqfluz" version="16.1.0" type="github" pages="2">
   <diagram id="NaEb7eJQa-QKAy5xCqQO" name="首次">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -203,8 +203,8 @@
         <mxCell id="dx_ddpeeLUTxoh0tbrBt-25" value="pull" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontColor=#FF9933;strokeColor=#FF9933;" edge="1" parent="dx_ddpeeLUTxoh0tbrBt-1" source="dx_ddpeeLUTxoh0tbrBt-5" target="dx_ddpeeLUTxoh0tbrBt-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Xq-VCgiEo3PaVaqFE7VM-0" value="git remote add upstream XXXX&lt;br&gt;git remote -v&lt;br&gt;git remote update&lt;br&gt;&lt;br&gt;git checkout -b NewBranch upstream/NewBranch&lt;br&gt;git push -u origin NewBranch" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="dx_ddpeeLUTxoh0tbrBt-1">
-          <mxGeometry x="770" y="60" width="300" height="90" as="geometry" />
+        <mxCell id="Xq-VCgiEo3PaVaqFE7VM-0" value="git remote add upstream XXXX&lt;br&gt;git remote -v&lt;br&gt;git remote update&lt;br&gt;&lt;br&gt;git checkout -b NewBranch upstream/NewBranch&lt;br&gt;git push -u origin NewBranch&lt;br&gt;&lt;br&gt;&lt;br&gt;git branch -d NewBranch&lt;br&gt;git branch -rd origin/NewBranch&lt;br&gt;git branch -rd upstream/NewBranch" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="dx_ddpeeLUTxoh0tbrBt-1">
+          <mxGeometry x="770" y="60" width="300" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
