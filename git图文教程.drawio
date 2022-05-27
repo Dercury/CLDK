@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T09:01:34.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="r44H0y3Vs_InCbMl1V_o" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T09:03:06.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="KPgepWFbp8HiA0Qdunzb" version="16.1.0" type="github">
   <diagram id="NaEb7eJQa-QKAy5xCqQO" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -79,9 +79,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h9Qk-xgom7_sQPxiCuEm-30" value="track" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;strokeColor=#FF00FF;fontColor=#FF00FF;" edge="1" parent="1" source="h9Qk-xgom7_sQPxiCuEm-16" target="h9Qk-xgom7_sQPxiCuEm-14">
-          <mxGeometry x="0.1639" y="5" relative="1" as="geometry">
+          <mxGeometry x="0.1475" y="30" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="400" />
+              <mxPoint x="540" y="400" />
+            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="h9Qk-xgom7_sQPxiCuEm-31" value="remote" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#FF00FF;strokeColor=#FF00FF;" edge="1" parent="1" source="h9Qk-xgom7_sQPxiCuEm-15" target="h9Qk-xgom7_sQPxiCuEm-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
