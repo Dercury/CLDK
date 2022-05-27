@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T08:40:30.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="LihvQHDl0hoHb8ZV9-9E" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T08:43:35.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="ih8Sky2sQRRnKyXH69Yh" version="16.1.0" type="github">
   <diagram id="NaEb7eJQa-QKAy5xCqQO" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -13,13 +13,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h9Qk-xgom7_sQPxiCuEm-7" value="共享版本库" style="swimlane;" vertex="1" parent="h9Qk-xgom7_sQPxiCuEm-5">
-          <mxGeometry x="50" y="60" width="200" height="200" as="geometry" />
+          <mxGeometry x="50" y="50" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Qk-xgom7_sQPxiCuEm-12" value="master分支" style="swimlane;" vertex="1" parent="h9Qk-xgom7_sQPxiCuEm-7">
+          <mxGeometry x="25" y="40" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Qk-xgom7_sQPxiCuEm-13" value="release分支" style="swimlane;" vertex="1" parent="h9Qk-xgom7_sQPxiCuEm-7">
+          <mxGeometry x="25" y="130" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="h9Qk-xgom7_sQPxiCuEm-10" value="MergeRequest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="h9Qk-xgom7_sQPxiCuEm-5" source="h9Qk-xgom7_sQPxiCuEm-8" target="h9Qk-xgom7_sQPxiCuEm-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h9Qk-xgom7_sQPxiCuEm-8" value="个人fork库" style="swimlane;" vertex="1" parent="h9Qk-xgom7_sQPxiCuEm-5">
-          <mxGeometry x="360" y="60" width="200" height="200" as="geometry" />
+          <mxGeometry x="360" y="50" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Qk-xgom7_sQPxiCuEm-14" value="master分支" style="swimlane;" vertex="1" parent="h9Qk-xgom7_sQPxiCuEm-8">
+          <mxGeometry x="25" y="40" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="h9Qk-xgom7_sQPxiCuEm-6" value="local" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="270" y="440" width="600" height="290" as="geometry">
