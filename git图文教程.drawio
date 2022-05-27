@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T09:03:06.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="KPgepWFbp8HiA0Qdunzb" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T09:05:13.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="Jl0wikK1hDqWX-0ysmJy" version="16.1.0" type="github">
   <diagram id="NaEb7eJQa-QKAy5xCqQO" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
             <mxRectangle x="270" y="60" width="130" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h9Qk-xgom7_sQPxiCuEm-15" value="本地库" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="h9Qk-xgom7_sQPxiCuEm-6">
+        <mxCell id="h9Qk-xgom7_sQPxiCuEm-15" value="本地库(heads)" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="h9Qk-xgom7_sQPxiCuEm-6">
           <mxGeometry x="40" y="50" width="200" height="220" as="geometry" />
         </mxCell>
         <mxCell id="h9Qk-xgom7_sQPxiCuEm-16" value="master分支" style="swimlane;" vertex="1" parent="h9Qk-xgom7_sQPxiCuEm-15">
@@ -87,7 +87,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h9Qk-xgom7_sQPxiCuEm-31" value="remote" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#FF00FF;strokeColor=#FF00FF;" edge="1" parent="1" source="h9Qk-xgom7_sQPxiCuEm-15" target="h9Qk-xgom7_sQPxiCuEm-8">
+        <mxCell id="h9Qk-xgom7_sQPxiCuEm-31" value="remote (origin)" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#FF00FF;strokeColor=#FF00FF;" edge="1" parent="1" source="h9Qk-xgom7_sQPxiCuEm-15" target="h9Qk-xgom7_sQPxiCuEm-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
