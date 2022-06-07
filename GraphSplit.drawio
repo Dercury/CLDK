@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T01:53:11.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="v7r2gqmefDP_cDshu3MA" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T03:27:27.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="dW6dgoAqwLhKrBYOFEdk" version="18.1.3" type="github">
   <diagram id="KEgm51hLiumPlPGKGr2v" name="第 1 页">
     <mxGraphModel dx="981" dy="1353" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -683,6 +683,30 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1758" y="-518" as="sourcePoint" />
             <mxPoint x="2258" y="-518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BuNuY5LoOj_fhjRixEMa-236" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="BuNuY5LoOj_fhjRixEMa-232" target="BuNuY5LoOj_fhjRixEMa-233">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BuNuY5LoOj_fhjRixEMa-238" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="BuNuY5LoOj_fhjRixEMa-232" target="BuNuY5LoOj_fhjRixEMa-234">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BuNuY5LoOj_fhjRixEMa-232" value="A" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="-297" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BuNuY5LoOj_fhjRixEMa-233" value="B" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1363" y="-189" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BuNuY5LoOj_fhjRixEMa-234" value="D" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1557" y="-189" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BuNuY5LoOj_fhjRixEMa-235" value="C" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="-191" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BuNuY5LoOj_fhjRixEMa-237" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="BuNuY5LoOj_fhjRixEMa-232" target="BuNuY5LoOj_fhjRixEMa-235">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1505" y="-237" as="sourcePoint" />
+            <mxPoint x="1408" y="-179" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
