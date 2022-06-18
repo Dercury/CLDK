@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T07:01:35.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="1jE1W-yUqAtgfuDU6YOQ" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-18T07:17:40.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="5lP-bETuItQAKEMDG2n3" version="19.0.3" type="github">
   <diagram id="745gx9OzcTvfiK2SG3xO" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -478,8 +478,8 @@
         <mxCell id="IBDVpuvRUq0DMvx8c1Gj-172" value="如何判断节点与其依赖节点之间是否需要Signal？&lt;br style=&quot;font-size: 16px;&quot;&gt;转换为判断：节点执行时，其依赖节点是否一定执行完毕了？&lt;br&gt;节点执行时，哪些节点一定执行完毕了呢？&lt;br style=&quot;font-size: 16px;&quot;&gt;(1)当前任务中、本节点之前的所有节点都执行完毕了&lt;br style=&quot;font-size: 16px;&quot;&gt;(2)当前节点的依赖列表中、待判断的依赖节点之前的所有节点都执行完毕了&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;(3)对(1)(2)中所有已经执行完毕的节点、使用规则(1)(2)反复递归能够访问到的所有节点都已经执行完毕了。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;所以，节点是否需要等待依赖节点的Signal转化为判断依赖节点是否属于这些已经确定执行完毕的节点。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;spacing=2;spacingTop=0;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="48" y="1430" width="562" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="IBDVpuvRUq0DMvx8c1Gj-173" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="646" y="1441" width="473" height="187" as="geometry" />
+        <mxCell id="IBDVpuvRUq0DMvx8c1Gj-173" value="算法步骤（BFS）：&lt;br style=&quot;font-size: 14px;&quot;&gt;(1)新建已执行完毕节点集合(使用unordered_set，不用queue是因为执行完毕判断规则之间可能存在重叠导致节点重复)&lt;br style=&quot;font-size: 14px;&quot;&gt;(2)当前任务中、本节点之前的所有节点加入集合&lt;br style=&quot;font-size: 14px;&quot;&gt;(3)当前节点的依赖列表中、依赖节点之前的所有节点加入集合&lt;br style=&quot;font-size: 14px;&quot;&gt;(4)只要集合不空，则对每个元素：&lt;br style=&quot;font-size: 14px;&quot;&gt;(5)弹出集合元素节点，判断集合元素节点是否等于待判断依赖节点，如果是，则返回true；&lt;br style=&quot;font-size: 14px;&quot;&gt;(6)否则，集合元素节点所在任务中、集合元素节点之前的所有节点加入集合，集合元素节点的所有依赖节点加入结合。&lt;br style=&quot;font-size: 14px;&quot;&gt;(7)集合为空，返回false。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="629" y="1435" width="474" height="187" as="geometry" />
         </mxCell>
         <mxCell id="IBDVpuvRUq0DMvx8c1Gj-174" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="IBDVpuvRUq0DMvx8c1Gj-133" target="IBDVpuvRUq0DMvx8c1Gj-168">
           <mxGeometry relative="1" as="geometry">
