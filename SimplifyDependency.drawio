@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T03:44:18.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="Q0s7-DsrtDXBBhLJwGQw" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-18T06:55:04.248Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="QNb3aSfkZ0vxOpjdssY9" version="19.0.3" type="github">
   <diagram id="745gx9OzcTvfiK2SG3xO" name="第 1 页">
-    <mxGraphModel dx="981" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -474,6 +474,9 @@
             <mxPoint x="954.0000000000009" y="915.9999999999998" as="sourcePoint" />
             <mxPoint x="846.4999999999991" y="1280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IBDVpuvRUq0DMvx8c1Gj-172" value="如何判断节点与其依赖节点之间是否需要Signal？&lt;br style=&quot;font-size: 16px;&quot;&gt;转换为判断：节点执行时，其依赖节点是否一定执行完毕了？&lt;br&gt;节点执行时，哪些节点一定执行完毕了呢？&lt;br style=&quot;font-size: 16px;&quot;&gt;(1)当前任务中、本节点之前的所有节点都执行完毕了&lt;br style=&quot;font-size: 16px;&quot;&gt;(2)当前节点的依赖列表中、待判断的依赖节点之前的所有节点都执行完毕了&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;(3)对(1)(2)中所有已经执行完毕的节点、使用规则(1)(2)反复递归能够访问到的所有节点都已经执行完毕了。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;所以，节点是否需要等待依赖节点的Signal转化为判断依赖节点是否属于这些已经确定执行完毕的节点。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="497" y="1431" width="562" height="205" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
