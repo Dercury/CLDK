@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T09:12:22.710Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="EKgk-uiKKOMl63d338vZ" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T10:05:57.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="k0l5UTT4tTzg6EEbhcpn" version="20.8.23" type="github">
   <diagram name="第 1 页" id="fGhIHJrPyTtKtBoyeVg_">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -224,6 +224,9 @@
         </mxCell>
         <mxCell id="Z8Gzp6AtLLoPiuOJ070W-19" value="顶层输出端口更新：" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="870" y="670" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8Gzp6AtLLoPiuOJ070W-25" value="update为什么调用子类的blockRun，然后调用父类的callEntry，而不是直接调用父类的callEntry？&lt;br&gt;答：有编译问题。&amp;nbsp; &amp;nbsp; ？" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="630" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
