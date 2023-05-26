@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T08:16:33.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="DqYp9JndgwTfw7Ywq7GZ" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T08:17:12.569Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="lTKRy4wgNmXl64EMmUMo" version="21.2.9" type="github">
   <diagram id="40gXXy51glzy7gpt3kXO" name="第 2 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -124,7 +124,7 @@
         <mxCell id="iO6Sjy3KuAad31WJJRh0-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="iO6Sjy3KuAad31WJJRh0-28" vertex="1">
           <mxGeometry x="45" y="500" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-31" value="start" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" parent="1" source="iO6Sjy3KuAad31WJJRh0-29" target="iO6Sjy3KuAad31WJJRh0-30" edge="1">
+        <mxCell id="iO6Sjy3KuAad31WJJRh0-31" value="&amp;lt;fork&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" parent="1" source="iO6Sjy3KuAad31WJJRh0-29" target="iO6Sjy3KuAad31WJJRh0-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="1020" as="sourcePoint" />
             <Array as="points">
@@ -132,18 +132,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-32" value="shm_created" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-30" target="iO6Sjy3KuAad31WJJRh0-29" edge="1">
+        <mxCell id="iO6Sjy3KuAad31WJJRh0-32" value="shm_matched" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-30" target="iO6Sjy3KuAad31WJJRh0-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="1095" as="targetPoint" />
             <Array as="points">
               <mxPoint x="280" y="1060" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-34" value="1.创建shm公共区&lt;br&gt;2.启动子进程&lt;br&gt;3.等待子进程done" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="60" y="980" width="105" height="50" as="geometry" />
+        <mxCell id="iO6Sjy3KuAad31WJJRh0-34" value="1.创建共享内存&lt;br&gt;2.启动子进程&lt;br&gt;3.TOP模块初始化&lt;br&gt;4.等待子进程握手" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="1005" width="105" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-36" value="start" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" parent="1" source="iO6Sjy3KuAad31WJJRh0-29" target="iO6Sjy3KuAad31WJJRh0-35" edge="1">
+        <mxCell id="iO6Sjy3KuAad31WJJRh0-36" value="&amp;lt;fork&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" parent="1" source="iO6Sjy3KuAad31WJJRh0-29" target="iO6Sjy3KuAad31WJJRh0-35" edge="1">
           <mxGeometry x="0.4568" relative="1" as="geometry">
             <mxPoint x="195" y="1045" as="sourcePoint" />
             <mxPoint x="385" y="1045" as="targetPoint" />
@@ -153,13 +154,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-37" value="1.打开shm公共区&lt;br&gt;2.创建shm输出区&lt;br&gt;3.连接输出信号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="iO6Sjy3KuAad31WJJRh0-37" value="1.打开共享内存&lt;br&gt;2.例化子模块&lt;br&gt;3.连接输入信号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="385" y="1010" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-38" value="1.打开shm公共区&lt;br&gt;2.创建shm输出区&lt;br&gt;3.连接输出信号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1020" width="95" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-39" value="shm_created" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-35" target="iO6Sjy3KuAad31WJJRh0-29" edge="1">
+        <mxCell id="iO6Sjy3KuAad31WJJRh0-39" value="shm_matched" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-35" target="iO6Sjy3KuAad31WJJRh0-29" edge="1">
           <mxGeometry x="-0.4568" relative="1" as="geometry">
             <mxPoint x="195" y="1085" as="targetPoint" />
             <mxPoint x="385" y="1085" as="sourcePoint" />
@@ -169,7 +167,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-40" value="1.发起信号连接&lt;br&gt;2.等待子进程done" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="iO6Sjy3KuAad31WJJRh0-40" value="1.发起信号连接&lt;br&gt;2.等待子进程connected，完成握手" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="1090" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iO6Sjy3KuAad31WJJRh0-41" value="sig_connect" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-33" target="iO6Sjy3KuAad31WJJRh0-42" edge="1">
@@ -195,9 +193,6 @@
         <mxCell id="iO6Sjy3KuAad31WJJRh0-45" value="1.连接输入信号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="385" y="1110" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-46" value="1.连接输入信号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1120" width="95" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="iO6Sjy3KuAad31WJJRh0-47" value="sig_connected" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-42" target="iO6Sjy3KuAad31WJJRh0-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="195" y="1070" as="targetPoint" />
@@ -220,7 +215,7 @@
         <mxCell id="iO6Sjy3KuAad31WJJRh0-56" value="1.准备输入&lt;br&gt;2.发起执行&lt;br&gt;3.等待子进程done&lt;br&gt;4.收集输出" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="1190" width="105" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-57" value="run" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-49" target="iO6Sjy3KuAad31WJJRh0-50" edge="1">
+        <mxCell id="iO6Sjy3KuAad31WJJRh0-57" value="calc" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-49" target="iO6Sjy3KuAad31WJJRh0-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="1214.76" as="sourcePoint" />
             <mxPoint x="380" y="1214.76" as="targetPoint" />
@@ -230,7 +225,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-58" value="run" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-49" target="iO6Sjy3KuAad31WJJRh0-55" edge="1">
+        <mxCell id="iO6Sjy3KuAad31WJJRh0-58" value="calc" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-49" target="iO6Sjy3KuAad31WJJRh0-55" edge="1">
           <mxGeometry x="0.4568" relative="1" as="geometry">
             <mxPoint x="195" y="1210" as="sourcePoint" />
             <mxPoint x="385" y="1210" as="targetPoint" />
@@ -247,7 +242,7 @@
         <mxCell id="iO6Sjy3KuAad31WJJRh0-60" value="1.执行计算" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="600" y="1220" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-61" value="done" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-55" target="iO6Sjy3KuAad31WJJRh0-49" edge="1">
+        <mxCell id="iO6Sjy3KuAad31WJJRh0-61" value="calc_done" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-55" target="iO6Sjy3KuAad31WJJRh0-49" edge="1">
           <mxGeometry x="-0.4568" relative="1" as="geometry">
             <mxPoint x="394" y="1260" as="targetPoint" />
             <mxPoint x="584" y="1260" as="sourcePoint" />
@@ -257,13 +252,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iO6Sjy3KuAad31WJJRh0-62" value="done" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-50" target="iO6Sjy3KuAad31WJJRh0-49" edge="1">
+        <mxCell id="iO6Sjy3KuAad31WJJRh0-62" value="calc_done" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="iO6Sjy3KuAad31WJJRh0-50" target="iO6Sjy3KuAad31WJJRh0-49" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="1270" as="targetPoint" />
             <mxPoint x="390" y="1270" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="280" y="1250" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iO6Sjy3KuAad31WJJRh0-65" value="1.发起退出&lt;br&gt;2.等待子进程done&lt;br&gt;3.清理退出" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -314,6 +310,9 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="s5bhBqOXdqPJ8e6-GmKE-1" value="1.打开共享内存&lt;br&gt;2.例化子模块&lt;br&gt;3.连接输入信号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1020" width="95" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
