@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T01:28:45.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YokrZVsZbXkq85_PECTV" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T01:34:37.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tPGPhcAEDDCbTDuiqQ3a" version="24.0.4" type="github">
   <diagram name="第 1 页" id="bzBQHWBgV5mlvqt9g90e">
-    <mxGraphModel dx="1434" dy="-81" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="-313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,34 +166,34 @@
           <mxGeometry x="850" y="1166" width="400" height="150" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-150" value="时戳" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="1181" width="40" height="29" as="geometry" />
+          <mxGeometry x="850" y="870" width="40" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-164" value="字节数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="1181" width="40" height="29" as="geometry" />
+          <mxGeometry x="890" y="870" width="40" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-165" value="参数1&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="1181" width="40" height="29" as="geometry" />
+          <mxGeometry x="930" y="870" width="40" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-166" value="参数1&lt;div&gt;数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1181" width="40" height="29" as="geometry" />
+          <mxGeometry x="970" y="870" width="40" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-167" value="参数5&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1181" width="40" height="29" as="geometry" />
+          <mxGeometry x="1010" y="870" width="40" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-168" value="参数5&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数据&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="1181" width="70" height="29" as="geometry" />
+          <mxGeometry x="1050" y="870" width="70" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-169" value="参数8&amp;nbsp;&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1181" width="40" height="29" as="geometry" />
+          <mxGeometry x="1120" y="870" width="40" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-170" value="参数8&lt;div&gt;数&lt;span style=&quot;background-color: initial;&quot;&gt;据&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1181" width="50" height="29" as="geometry" />
+          <mxGeometry x="1160" y="870" width="50" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-171" value="&lt;span style=&quot;&quot;&gt;输入输出FIFO中数据的格式：&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="1151" width="370" height="30" as="geometry" />
+          <mxGeometry x="850" y="840" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-172" value="&lt;span style=&quot;&quot;&gt;问题：&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1.对于有多个时钟域的DUT模型，时戳是哪一个时钟的值？是多进程模型中的采样时钟的值吗？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;时戳是SC_TOP使用的sc_timestamp的值，不是采样时钟的值。&lt;/div&gt;&lt;div&gt;2.需要传递所有的参数吗？&lt;/div&gt;&lt;div&gt;输入输出数据中可能包含报文数据，每次都传递所有的数据，会导致数据量大，而实际变化的数据少，pack &amp;amp; write和read &amp;amp; unpack的效率比较低。所以，仅传递有变化的参数，减少数据量、提高效率。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="1220" width="370" height="120" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-172" value="&lt;span style=&quot;&quot;&gt;问题：&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1.对于有多个时钟域的DUT模型，时戳是哪一个时钟的值？是多进程模型中的采样时钟的值吗？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;时戳是SC_TOP使用的sc_timestamp的值，不是采样时钟的值。&lt;/div&gt;&lt;div&gt;2.需要传递所有的参数吗？&lt;/div&gt;&lt;div&gt;输入输出数据中可能包含报文数据，每次都传递所有的数据，会导致数据量大，而实际变化的数据少，pack &amp;amp; write和read &amp;amp; unpack的效率比较低。所以，仅传递有变化的参数，减少数据量、提高效率。&lt;/div&gt;&lt;div&gt;3.只传递变化的数据，会不会导致数据量一直没法达到批量传递的门限而不能触发传递呢？&lt;/div&gt;&lt;div&gt;3.每个参数还需要传递参数的字节数信息吗？&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="909" width="370" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
