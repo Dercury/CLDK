@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T11:07:56.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3E4fdnbObDGXoOXyfW1a" version="24.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-28T11:13:51.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ncPbIVFAMBepKKxVL-r4" version="24.0.4" type="github" pages="2">
   <diagram id="0jPVEv1FSNv8W7Jhcmmu" name="平台迁移">
-    <mxGraphModel dx="1434" dy="-81" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="-401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,16 +67,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-1" value="CPU阵列" style="swimlane;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1170" width="600" height="350" as="geometry" />
+          <mxGeometry x="300" y="1160" width="500" height="410" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-2" value="地&lt;br&gt;址&lt;br&gt;读&lt;br&gt;写" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="GSirU1bVMvHmUtakLMwt-1" source="GSirU1bVMvHmUtakLMwt-3" target="GSirU1bVMvHmUtakLMwt-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-3" value="调度核 * 1" style="swimlane;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="GSirU1bVMvHmUtakLMwt-1">
-          <mxGeometry x="21" y="41.5" width="389" height="288.5" as="geometry" />
+          <mxGeometry x="21" y="41.5" width="269" height="348.5" as="geometry" />
         </mxCell>
         <mxCell id="vOXS9pKpRYlNJ04u-MNv-1" value="" style="group" vertex="1" connectable="0" parent="GSirU1bVMvHmUtakLMwt-3">
-          <mxGeometry x="279" y="108.5" width="100" height="100" as="geometry" />
+          <mxGeometry x="129" y="218.5" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vOXS9pKpRYlNJ04u-MNv-2" value="响应调度" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="vOXS9pKpRYlNJ04u-MNv-1">
           <mxGeometry x="10" y="9.5" width="80" height="31" as="geometry" />
@@ -87,14 +87,11 @@
         <mxCell id="vOXS9pKpRYlNJ04u-MNv-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="vOXS9pKpRYlNJ04u-MNv-1">
           <mxGeometry width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="CbO6QrDI1dP9WdUeqVG2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="GSirU1bVMvHmUtakLMwt-3" source="GSirU1bVMvHmUtakLMwt-11" target="vOXS9pKpRYlNJ04u-MNv-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-11" value="SC_TOP" style="swimlane;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GSirU1bVMvHmUtakLMwt-3">
-          <mxGeometry x="13" y="186" width="217" height="84" as="geometry" />
+          <mxGeometry x="13" y="186" width="237" height="144" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-12" value="地址映射" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GSirU1bVMvHmUtakLMwt-11">
-          <mxGeometry x="116" y="37" width="80" height="31" as="geometry" />
+          <mxGeometry x="16" y="92.5" width="80" height="31" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-13" value="IO传递" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GSirU1bVMvHmUtakLMwt-11">
           <mxGeometry x="16" y="37" width="80" height="31" as="geometry" />
@@ -110,7 +107,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-16" value="UniBench" style="verticalAlign=middle;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=5;html=1;fontSize=16;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="GSirU1bVMvHmUtakLMwt-3">
-          <mxGeometry x="53.5" y="38" width="136" height="86" as="geometry" />
+          <mxGeometry x="63.5" y="38" width="136" height="86" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-17" value="返回结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;exitX=0.922;exitY=0.001;exitDx=0;exitDy=0;entryX=0.615;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="GSirU1bVMvHmUtakLMwt-3" source="GSirU1bVMvHmUtakLMwt-11" target="GSirU1bVMvHmUtakLMwt-16">
           <mxGeometry relative="1" as="geometry">
@@ -119,7 +116,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-6" value="计算核 * N" style="swimlane;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="GSirU1bVMvHmUtakLMwt-1">
-          <mxGeometry x="460" y="80" width="120" height="141" as="geometry" />
+          <mxGeometry x="360" y="145.25" width="120" height="141" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-7" value="状态匹配" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="GSirU1bVMvHmUtakLMwt-6">
           <mxGeometry x="20" y="40.5" width="80" height="31" as="geometry" />
@@ -128,10 +125,10 @@
           <mxGeometry x="20" y="90.5" width="80" height="31" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-10" value="扣板 / PC" style="swimlane;fontSize=14;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1270" width="180" height="150" as="geometry" />
+          <mxGeometry x="30" y="1290" width="170" height="150" as="geometry" />
         </mxCell>
         <mxCell id="vOXS9pKpRYlNJ04u-MNv-5" value="CLI" style="swimlane;fontSize=14;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="GSirU1bVMvHmUtakLMwt-10">
-          <mxGeometry x="27" y="44" width="133" height="88.5" as="geometry" />
+          <mxGeometry x="19.5" y="39" width="133" height="91" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-9" value="地址读写" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;startArrow=classic;startFill=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GSirU1bVMvHmUtakLMwt-10" target="GSirU1bVMvHmUtakLMwt-1">
           <mxGeometry x="0.0019" relative="1" as="geometry">
@@ -140,8 +137,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pn4dx-L37PEnloAyXw5S-1" value="问题：&lt;div&gt;1. CPU阵列侧都没有操作系统，也没有Unibench/SystemC等依赖的各种系统库，怎么办？&lt;/div&gt;&lt;div&gt;答：&lt;/div&gt;&lt;div&gt;2.使用LiteOS可以吗？&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1530" width="440" height="100" as="geometry" />
+        <mxCell id="Pn4dx-L37PEnloAyXw5S-1" value="问题：&lt;div&gt;1. CPU阵列侧都没有操作系统，也没有Unibench/SystemC等依赖的各种系统库，怎么办？&lt;/div&gt;&lt;div&gt;答：&lt;/div&gt;&lt;div&gt;2.使用LiteOS可以吗？&lt;/div&gt;&lt;div&gt;答：&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1460" width="260" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
