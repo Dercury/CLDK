@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T01:34:37.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tPGPhcAEDDCbTDuiqQ3a" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T02:01:37.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="v1_3j_wvzBdCD9DeNYQu" version="24.0.4" type="github">
   <diagram name="第 1 页" id="bzBQHWBgV5mlvqt9g90e">
     <mxGraphModel dx="989" dy="-313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -189,11 +189,11 @@
         <mxCell id="LjgOpnGmxGzKYRoascXe-170" value="参数8&lt;div&gt;数&lt;span style=&quot;background-color: initial;&quot;&gt;据&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="870" width="50" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-171" value="&lt;span style=&quot;&quot;&gt;输入输出FIFO中数据的格式：&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-171" value="&lt;span style=&quot;&quot;&gt;输入输出FIFO中数据条目的格式：&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="850" y="840" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-172" value="&lt;span style=&quot;&quot;&gt;问题：&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1.对于有多个时钟域的DUT模型，时戳是哪一个时钟的值？是多进程模型中的采样时钟的值吗？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;时戳是SC_TOP使用的sc_timestamp的值，不是采样时钟的值。&lt;/div&gt;&lt;div&gt;2.需要传递所有的参数吗？&lt;/div&gt;&lt;div&gt;输入输出数据中可能包含报文数据，每次都传递所有的数据，会导致数据量大，而实际变化的数据少，pack &amp;amp; write和read &amp;amp; unpack的效率比较低。所以，仅传递有变化的参数，减少数据量、提高效率。&lt;/div&gt;&lt;div&gt;3.只传递变化的数据，会不会导致数据量一直没法达到批量传递的门限而不能触发传递呢？&lt;/div&gt;&lt;div&gt;3.每个参数还需要传递参数的字节数信息吗？&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="909" width="370" height="170" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-172" value="&lt;span style=&quot;&quot;&gt;问题：&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1.对于有多个时钟域的DUT模型，时戳是哪一个时钟的值？是多进程模型中的采样时钟的值吗？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;时戳是SC_TOP使用的sc_timestamp的值，不是采样时钟的值。&lt;/div&gt;&lt;div&gt;2.需要传递所有的参数吗？&lt;/div&gt;&lt;div&gt;输入输出数据中可能包含报文数据，每次都传递所有的数据，会导致数据量大，而实际变化的数据少，pack &amp;amp; write和read &amp;amp; unpack的效率比较低。所以，仅传递有变化的参数，减少数据量、提高效率。&lt;/div&gt;&lt;div&gt;3.只传递变化的数据，会不会导致数据量一直没法达到批量传递的门限而不能触发传递呢？&lt;/div&gt;&lt;div&gt;数据传递的门限不只被数据量大小触发，也被数据条目数量触发。即，当数据条目累计到一定数量时，也会开启数据传递。&lt;/div&gt;&lt;div&gt;4.每个参数还需要传递参数的字节数信息吗？&lt;/div&gt;&lt;div&gt;编译完成之后，PC和CPU阵列两侧都有&lt;span style=&quot;background-color: initial;&quot;&gt;所有&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;参数的信息，可以不传递参数大小。也可以传递参数大小，用于数据完整性校验。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="909" width="370" height="211" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
