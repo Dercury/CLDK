@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T02:12:14.839Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dg59R067tEt8aLhOmJeb" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T02:48:06.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="l78KPdIb5CdBjyyVcliw" version="24.0.4" type="github">
   <diagram name="第 1 页" id="bzBQHWBgV5mlvqt9g90e">
-    <mxGraphModel dx="989" dy="-313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="-472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,10 +149,13 @@
         <mxCell id="LjgOpnGmxGzKYRoascXe-133" value="UniBench" style="verticalAlign=middle;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=5;html=1;fontSize=16;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-127">
           <mxGeometry x="85" y="43.5" width="136" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-134" value="返回结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;exitX=0.9;exitY=-0.013;exitDx=0;exitDy=0;entryX=0.615;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="LjgOpnGmxGzKYRoascXe-127" source="LjgOpnGmxGzKYRoascXe-128" target="LjgOpnGmxGzKYRoascXe-133">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-134" value="返回结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;entryX=0.615;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LjgOpnGmxGzKYRoascXe-127" source="LjgOpnGmxGzKYRoascXe-128" target="LjgOpnGmxGzKYRoascXe-133">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="451" y="112.5" as="sourcePoint" />
             <mxPoint x="58.999999999999886" y="198.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="256" y="96" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-139" value="批量读取" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;startArrow=classic;startFill=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LjgOpnGmxGzKYRoascXe-136" target="LjgOpnGmxGzKYRoascXe-138">
@@ -162,8 +165,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-149" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;问题：&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.&lt;/div&gt;&lt;div&gt;1.从CPU阵列中读取的“超时的”输出在PC侧如何处理？&lt;/div&gt;如果Unibench不关心输出的数据，那么为什么要读取它们呢？&lt;div&gt;2.如果&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="1200" width="400" height="150" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-149" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Writer和Reader是SC_TOP启动的线程。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SC_TOP主线程负责pack输入并push FIFO，Writer只负责从输入FIFO中批量搬移FIFO条目到CPU阵列的输入FIFO中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;主线程Pack &amp;amp; push：主线程中维护一个当前条目的Buffer，每个输入信号/参数的method内部检查信号的变化，如果有变化，则将其ID、大小、数值等加入到Buffer中，增加字节数/参数个数；在request_update的update函数中填充时戳、拷贝当前条目的数据，并push到输入FIFO中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;问题：&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.&lt;/div&gt;&lt;div&gt;1.从CPU阵列中读取的“超时的”输出在PC侧如何处理？&lt;/div&gt;如果Unibench不关心输出的数据，那么为什么要读取它们呢？&lt;div&gt;2.如果&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1241" width="480" height="230" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-150" value="时戳" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="870" width="40" height="29" as="geometry" />
@@ -193,7 +196,7 @@
           <mxGeometry x="850" y="840" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-172" value="&lt;span style=&quot;&quot;&gt;问题：&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1.对于有多个时钟域的DUT模型，时戳是哪一个时钟的值？是多进程模型中的采样时钟的值吗？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;时戳是SC_TOP使用的sc_timestamp的值，不是采样时钟的值。&lt;/div&gt;&lt;div&gt;2.需要传递所有的参数吗？&lt;/div&gt;&lt;div&gt;输入输出数据中可能包含报文数据，每次都传递所有的数据，会导致数据量大，而实际变化的数据少，pack &amp;amp; write和read &amp;amp; unpack的效率比较低。所以，仅传递有变化的参数，减少数据量、提高效率。&lt;/div&gt;&lt;div&gt;3.只传递变化的数据，会不会导致数据量一直没法达到批量传递的门限而不能触发传递呢？&lt;/div&gt;&lt;div&gt;数据传递的门限不只被数据量大小触发，也被数据条目数量触发。即，当数据条目累计到一定数量时，也会开启数据传递。&lt;/div&gt;&lt;div&gt;4.每个参数还需要传递参数的字节数信息吗？&lt;/div&gt;&lt;div&gt;编译完成之后，PC和CPU阵列两侧都有&lt;span style=&quot;background-color: initial;&quot;&gt;所有&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;参数的信息，可以不传递参数大小。也可以传递参数大小，用于数据完整性校验。时戳之后的字节数除了明确条目的结束位置之外，也是为了整体做完整性校验的，如果传递了每个参数大小做完整性校验，字节数可以改成参数个数。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="943" width="400" height="261" as="geometry" />
+          <mxGeometry x="850" y="943" width="400" height="247" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-175" value="时戳" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="910" width="40" height="29" as="geometry" />
@@ -227,6 +230,9 @@
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-186" value="参数8&amp;nbsp;&lt;div&gt;字节数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="910" width="40" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-187" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Writer和Reader是SC_TOP启动的线程。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PC和CPU阵列中各有输入和输出FIFO，PC输入FIFO单向传递数据给CPU阵列输入FIFO，CPU阵列输出FIFO单向传递数据给PC输出FIFO。&lt;/div&gt;&lt;div&gt;两侧FIFO的差别：&lt;span style=&quot;background-color: initial;&quot;&gt;CPU阵列的FIFO应该是固定大小的，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PC侧FIFO&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是可自由伸缩的。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SC_TOP主线程负责pack输入并push FIFO，Writer只负责从输入FIFO中批量搬移FIFO条目到CPU阵列的输入FIFO中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;主线程Pack &amp;amp; push：主线程中维护一个当前条目的Buffer，每个输入信号/参数的method内部检查信号的变化，如果有变化，则将其ID、大小、数值等加入到Buffer中，增加字节数/参数个数；在request_update的update函数中填充时戳、拷贝当前条目的数据，并push到输入FIFO中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Writer搬移数据：当FIFO中条目的数量或数据量（总字节数）超过门限时，将数据整体搬移写入CPU阵列的输入FIFO。&lt;/div&gt;&lt;div&gt;问题：CPU阵列的输入FIFO满时，Writer怎么知道，怎么处理要搬移的数据呢？&lt;/div&gt;&lt;div&gt;CPU阵列的输入FIFO有2个门限：空门限和满门限；空门限表示输入FIFO将要清空，需要加快数据搬移，满门限表示输入FIFO将要溢出，需要减慢直至暂停数据搬移；&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1160" width="480" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
