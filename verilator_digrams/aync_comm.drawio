@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T03:03:52.564Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="QqKHC2dXiZH105QcGvdY" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T03:08:09.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iatitkOiqdqZJP0bFuC7" version="24.0.4" type="github">
   <diagram name="第 1 页" id="bzBQHWBgV5mlvqt9g90e">
-    <mxGraphModel dx="683" dy="-472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="-401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,13 +67,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-118" value="CPU阵列" style="swimlane;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1413.5" width="450" height="216.5" as="geometry" />
+          <mxGeometry x="400" y="1413.5" width="450" height="216.5" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-119" value="地&lt;br&gt;址&lt;br&gt;读&lt;br&gt;写" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="LjgOpnGmxGzKYRoascXe-118" source="LjgOpnGmxGzKYRoascXe-120" target="LjgOpnGmxGzKYRoascXe-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-120" value="调度核 * 1" style="swimlane;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-118">
-          <mxGeometry x="10" y="53" width="260" height="140" as="geometry" />
+          <mxGeometry x="20" y="53" width="260" height="140" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-121" value="响应调度" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-120">
           <mxGeometry x="160" y="39.5" width="80" height="31" as="geometry" />
@@ -113,10 +113,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-127" value="扣板 / PC" style="swimlane;fontSize=14;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1270" width="340" height="360" as="geometry" />
+          <mxGeometry x="20" y="1270" width="300" height="360" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-128" value="SC_TOP" style="swimlane;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-127">
-          <mxGeometry x="20" y="180" width="260" height="170" as="geometry" />
+          <mxGeometry x="20" y="176.5" width="260" height="170" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-129" value="地址映射" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-128">
           <mxGeometry x="21" y="106" width="80" height="31" as="geometry" />
@@ -148,7 +148,7 @@
         <mxCell id="LjgOpnGmxGzKYRoascXe-131" value="传递激励" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;" edge="1" parent="LjgOpnGmxGzKYRoascXe-127" source="LjgOpnGmxGzKYRoascXe-133" target="LjgOpnGmxGzKYRoascXe-128">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="52" y="98" />
+              <mxPoint x="52" y="94.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -156,14 +156,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-133" value="UniBench" style="verticalAlign=middle;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=5;html=1;fontSize=16;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-127">
-          <mxGeometry x="85" y="43.5" width="136" height="86" as="geometry" />
+          <mxGeometry x="85" y="40" width="136" height="86" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-134" value="返回结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;entryX=0.615;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LjgOpnGmxGzKYRoascXe-127" source="LjgOpnGmxGzKYRoascXe-128" target="LjgOpnGmxGzKYRoascXe-133">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="451" y="112.5" as="sourcePoint" />
-            <mxPoint x="58.999999999999886" y="198.5" as="targetPoint" />
+            <mxPoint x="451" y="109" as="sourcePoint" />
+            <mxPoint x="58.999999999999886" y="195" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="256" y="96" />
+              <mxPoint x="256" y="92.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -241,7 +241,7 @@
           <mxGeometry x="1240" y="910" width="40" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-187" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; Writer和Reader是SC_TOP启动的线程。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; PC和CPU阵列中各有输入和输出FIFO，PC输入FIFO单向传递数据给CPU阵列输入FIFO，CPU阵列输出FIFO单向传递数据给PC输出FIFO。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;两侧FIFO的差别：&lt;span style=&quot;background-color: initial;&quot;&gt;CPU阵列的FIFO应该是固定大小的，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PC侧FIFO&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是可自由伸缩的。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;CPU阵列的输入FIFO有2个门限：空门限和满门限；空门限表示输入FIFO将要清空，需要加快数据搬移，满门限表示输入FIFO将要溢出，需要减慢直至暂停数据搬移。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;SC_TOP和调度核主线程负责pack输入并push FIFO，Writer只负责从输入FIFO中批量搬移FIFO条目到CPU阵列的输入FIFO中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; 主线程Pack &amp;amp; push：主线程中维护一个当前条目的Buffer，每个输入信号/参数的method内部检查信号的变化，如果有变化，则将其ID、大小、数值等加入到Buffer中，增加字节数/参数个数；在request_update的update函数中填充时戳、拷贝当前条目的数据，并push到输入FIFO中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;gt; Writer搬移数据：当FIFO中条目的数量或数据量（总字节数）超过门限时，&lt;font color=&quot;#ff3333&quot;&gt;获取CPU阵列输入FIFO的空闲空间大小（怎么获取呢？）&lt;/font&gt;，将数据整体搬移写入CPU阵列的输入FIFO。&lt;/div&gt;&lt;div&gt;&amp;gt; 调度核pop &amp;amp; unpack：&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1160" width="460" height="250" as="geometry" />
+          <mxGeometry x="340" y="1150" width="490" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
