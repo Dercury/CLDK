@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T11:23:20.778Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-C9ehgU2IJkay0cbGA2s" version="24.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-28T11:27:56.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="vEuf0tF2q7--pJhwQbNg" version="24.0.4" type="github" pages="2">
   <diagram id="0jPVEv1FSNv8W7Jhcmmu" name="平台迁移">
     <mxGraphModel dx="1434" dy="-81" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -137,7 +137,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pn4dx-L37PEnloAyXw5S-1" value="问题：&lt;div&gt;1. CPU阵列侧都没有操作系统，也没有Unibench/SystemC等依赖的各种系统库，怎么办？&lt;/div&gt;&lt;div&gt;答：&lt;/div&gt;&lt;div&gt;2.使用LiteOS可以吗？&lt;/div&gt;&lt;div&gt;答：&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="Pn4dx-L37PEnloAyXw5S-1" value="问题：&lt;div&gt;1. CPU阵列侧都没有操作系统，也没有Unibench/SystemC等依赖的各种系统库，怎么办？&lt;/div&gt;&lt;div&gt;答：使用LiteOS。&lt;/div&gt;&lt;div&gt;2.使用LiteOS可以吗？&lt;/div&gt;&lt;div&gt;答：&lt;/div&gt;&lt;div&gt;3.LiteOS以及各种系统库的大小总计有多大，调度核能够获取足够的MEM空间吗？&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="20" y="1460" width="260" height="170" as="geometry" />
         </mxCell>
       </root>
