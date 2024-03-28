@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T06:55:57.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9Ieosy4xASGsbbJ5Iaju" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T07:23:28.011Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="G77IBNeo22m51vgK9gAs" version="24.0.4" type="github">
   <diagram name="第 1 页" id="bzBQHWBgV5mlvqt9g90e">
-    <mxGraphModel dx="819" dy="-401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="-472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,73 +175,73 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-149" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Writer和Reader是SC_TOP启动的线程。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SC_TOP主线程负责pack输入并push FIFO，Writer只负责从输入FIFO中批量搬移FIFO条目到CPU阵列的输入FIFO中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;主线程Pack &amp;amp; push：主线程中维护一个当前条目的Buffer，每个输入信号/参数的method内部检查信号的变化，如果有变化，则将其ID、大小、数值等加入到Buffer中，增加字节数/参数个数；在request_update的update函数中填充时戳、拷贝当前条目的数据，并push到输入FIFO中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;问题：&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;1.必须等待输出响应的时候怎么办？&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;2.从CPU阵列中读取的输出相比于输入是迟到的，是不是Unibench不关心输出呢？&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#ff3333&quot;&gt;如果Unibench不关心输出的数据，那么为什么要读取它们呢？&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="910" y="1241" width="480" height="229" as="geometry" />
+          <mxGeometry x="890" y="1250" width="480" height="229" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-150" value="时戳" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="870" width="40" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-164" value="字节数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="870" width="40" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-165" value="参数1&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-164" value="字节数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="870" width="40" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-166" value="参数1&lt;div&gt;数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-165" value="参数1&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="870" width="40" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-167" value="参数5&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-166" value="参数1&lt;div&gt;数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="870" width="40" height="29" as="geometry" />
         </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-167" value="参数5&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="870" width="40" height="29" as="geometry" />
+        </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-168" value="参数5&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数据&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="870" width="70" height="29" as="geometry" />
+          <mxGeometry x="1090" y="870" width="70" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-169" value="参数8&amp;nbsp;&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="870" width="40" height="29" as="geometry" />
+          <mxGeometry x="1160" y="870" width="40" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-170" value="参数8&lt;div&gt;数&lt;span style=&quot;background-color: initial;&quot;&gt;据&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="870" width="50" height="29" as="geometry" />
+          <mxGeometry x="1200" y="870" width="50" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-171" value="&lt;span style=&quot;&quot;&gt;输入输出FIFO中数据条目的格式：&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="840" width="370" height="30" as="geometry" />
+          <mxGeometry x="890" y="840" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-172" value="&lt;span style=&quot;&quot;&gt;问题：&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1.对于有多个时钟域的DUT模型，时戳是哪一个时钟的值？是多进程模型中的采样时钟的值吗？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;时戳是SC_TOP使用的sc_timestamp的值，不是采样时钟的值。&lt;/div&gt;&lt;div&gt;2.需要传递所有的参数吗？&lt;/div&gt;&lt;div&gt;输入输出数据中可能包含报文数据，每次都传递所有的数据，会导致数据量大，而实际变化的数据少，pack &amp;amp; write和read &amp;amp; unpack的效率比较低。所以，仅传递有变化的参数，减少数据量、提高效率。&lt;/div&gt;&lt;div&gt;3.只传递变化的数据，会不会导致数据量一直没法达到批量传递的门限而不能触发传递呢？&lt;/div&gt;&lt;div&gt;数据传递的门限不只被数据量大小触发，也被数据条目数量触发。即当数据条目累计到一定数量时，也会开启数据传递。&lt;/div&gt;&lt;div&gt;4.每个参数还需要传递参数的字节数信息吗？&lt;/div&gt;&lt;div&gt;编译完成之后，PC和CPU阵列两侧都有&lt;span style=&quot;background-color: initial;&quot;&gt;所有&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;参数的信息，可以不传递参数大小。也可以传递参数大小，用于数据完整性校验。时戳之后的字节数除了明确条目的结束位置之外，也是为了整体做完整性校验的，如果传递了每个参数大小做完整性校验，字节数可以改成参数个数。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5.&lt;font color=&quot;#ff3333&quot;&gt;FIFO/MEM怎么管理&lt;/font&gt;：只传递变化的数据，FIFO中每个数据条目长度不一致，FIFO/MEM的管理会复杂。当FIFO/MEM要满时，剩余的空间放不下当前的条目，怎么办呢？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6.如果某个时钟下，没有任何输入或者输出变化，还需要填充条目吗？&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="943" width="390" height="307" as="geometry" />
+          <mxGeometry x="890" y="943" width="480" height="307" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-175" value="时戳" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="910" width="40" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-176" value="参数个数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="910" width="40" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-177" value="参数1&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-176" value="参数个数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="910" width="40" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-178" value="参数1&lt;div&gt;数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="910" width="40" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-179" value="参数5&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="910" width="40" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-180" value="参数5&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数据&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="910" width="70" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-181" value="参数8&amp;nbsp;&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="910" width="40" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-182" value="参数8&lt;div&gt;数&lt;span style=&quot;background-color: initial;&quot;&gt;据&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="910" width="50" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-183" value="参数1&lt;div&gt;字节数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-177" value="参数1&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="910" width="40" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-184" value="参数5&lt;div&gt;字节数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-178" value="参数1&lt;div&gt;数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="910" width="40" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-179" value="参数5&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1090" y="910" width="40" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-186" value="参数8&amp;nbsp;&lt;div&gt;字节数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-180" value="参数5&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数据&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="910" width="70" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-181" value="参数8&amp;nbsp;&lt;div&gt;ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="910" width="40" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-187" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; Writer和Reader是SC_TOP启动的线程。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; PC和CPU阵列中各有输入和输出FIFO，PC输入FIFO单向传递数据给CPU阵列输入FIFO，CPU阵列输出FIFO单向传递数据给PC输出FIFO。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;两侧FIFO的差别：&lt;span style=&quot;background-color: initial;&quot;&gt;CPU阵列的FIFO应该是固定大小的，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PC侧FIFO&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是可自由伸缩的。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;CPU阵列的输入FIFO有2个门限：空门限和满门限；空门限表示输入FIFO将要清空，需要加快数据搬移，满门限表示输入FIFO将要溢出，需要减慢直至暂停数据搬移。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;SC_TOP和调度核主线程负责pack输入并push FIFO，Writer只负责从输入FIFO中批量搬移FIFO条目到CPU阵列的输入FIFO中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; 主线程Pack &amp;amp; push：主线程中维护一个当前条目的Buffer，每个输入信号/参数的method内部检查信号的变化，如果有变化，则将其ID、大小、数值等加入到Buffer中，增加字节数/参数个数；在request_update的update函数中填充时戳、拷贝当前条目的数据，并push到输入FIFO中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;gt; Writer搬移数据：当FIFO中条目的数量或数据量（总字节数）超过门限时，&lt;font color=&quot;#ff3333&quot;&gt;获取CPU阵列输入FIFO的空闲空间大小（怎么获取呢？）&lt;/font&gt;，将数据整体搬移写入CPU阵列的输入FIFO。&lt;/div&gt;&lt;div&gt;&amp;gt; 调度核pop &amp;amp; unpack：调度核从输入FIFO中pop一个条目，并按照条目格式unpack变化的信号，然后发起调度计算。&lt;/div&gt;&lt;div&gt;&amp;gt; 调度核pack &amp;amp; push：调度核中维护上一次输出的信号值、输出FIFO/MEM的入队指针；调度核等待计算完成后，比较当前与上一次的输出信号，将变化的信号信息（ID、长度、值）填充到FIFO/MEM入队指针对应条目中，并更新入队指针。&lt;/div&gt;&lt;div&gt;&amp;gt; Reader搬移数据 &amp;amp; unpack：Reader循环地（无法获得合适的读取时机&lt;span style=&quot;background-color: initial;&quot;&gt;）从CPU阵列的输出FIFO/MEM中读取出队指针到入队指针之间的所有条目，并&lt;font color=&quot;#ff0000&quot;&gt;更新出队指针（how？）&lt;/font&gt;；然后逐条目unpack读取的数据，写入到SC_TOP的输出信号（&lt;font color=&quot;#ff0000&quot;&gt;输出信号相比于输入信号是迟到的，会不会有影响？&lt;/font&gt;）。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1080" width="490" height="330" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-182" value="参数8&lt;div&gt;数&lt;span style=&quot;background-color: initial;&quot;&gt;据&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="910" width="50" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-183" value="参数1&lt;div&gt;字节数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="910" width="40" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-184" value="参数5&lt;div&gt;字节数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="910" width="40" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-186" value="参数8&amp;nbsp;&lt;div&gt;字节数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="910" width="40" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-187" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; Writer和Reader是SC_TOP启动的线程。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; PC和CPU阵列中各有输入和输出FIFO，PC输入FIFO单向传递数据给CPU阵列输入FIFO，CPU阵列输出FIFO单向传递数据给PC输出FIFO。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;两侧FIFO的差别：&lt;span style=&quot;background-color: initial;&quot;&gt;CPU阵列的FIFO应该是固定大小的，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PC侧FIFO&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是可自由伸缩的。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;CPU阵列的输入FIFO有2个门限：空门限和满门限；空门限表示输入FIFO将要清空，需要加快数据搬移，满门限表示输入FIFO将要溢出，需要减慢直至暂停数据搬移。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;SC_TOP和调度核主线程负责pack输入并push FIFO，Writer只负责从输入FIFO中批量搬移FIFO条目到CPU阵列的输入FIFO中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; &lt;b&gt;主线程Pack &amp;amp; push&lt;/b&gt;：主线程中维护一个当前条目的Buffer，每个输入信号/参数的method内部检查信号的变化，如果有变化，则将其ID、大小、数值等加入到Buffer中，增加字节数/参数个数；在request_update的update函数中填充时戳、拷贝当前条目的数据，并push到输入FIFO中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;gt; &lt;b&gt;Writer搬移数据&lt;/b&gt;：当FIFO中条目的数量或数据量（总字节数）、或者距上一次搬移的时间超过门限时，&lt;font color=&quot;#ff3333&quot;&gt;获取CPU阵列输入FIFO的空闲空间大小（怎么获取呢？）&lt;/font&gt;，将数据整体搬移写入CPU阵列的输入FIFO。&lt;/div&gt;&lt;div&gt;&amp;gt; &lt;b&gt;调度核pop &amp;amp; unpack&lt;/b&gt;：调度核从输入FIFO中pop一个条目，并按照条目格式unpack变化的信号，然后发起调度计算。&lt;/div&gt;&lt;div&gt;&amp;gt; &lt;b&gt;调度核pack &amp;amp; push&lt;/b&gt;：调度核中维护上一次输出的信号值、输出FIFO/MEM的入队指针；调度核等待计算完成后，比较当前与上一次的输出信号，将变化的信号信息（ID、长度、值）填充到FIFO/MEM入队指针对应条目中，并更新入队指针。&lt;/div&gt;&lt;div&gt;&amp;gt; &lt;b&gt;Reader搬移数据 &amp;amp; unpack&lt;/b&gt;：Reader循环地（无法获得合适的读取时机&lt;span style=&quot;background-color: initial;&quot;&gt;）从CPU阵列的输出FIFO/MEM中读取出队指针到入队指针之间的所有条目，并&lt;font color=&quot;#ff0000&quot;&gt;更新出队指针（how？）&lt;/font&gt;；然后逐条目unpack读取的数据，写入到SC_TOP的输出信号（&lt;font color=&quot;#ff0000&quot;&gt;输出信号相比于输入信号是迟到的，会不会有影响？&lt;/font&gt;）。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1060" width="520" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
