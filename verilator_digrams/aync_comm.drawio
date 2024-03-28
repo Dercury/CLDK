@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T11:13:51.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ncPbIVFAMBepKKxVL-r4" version="24.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-28T11:21:59.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kehoArVd5DRjUYpnl_AE" version="24.0.4" type="github" pages="2">
   <diagram id="0jPVEv1FSNv8W7Jhcmmu" name="平台迁移">
     <mxGraphModel dx="819" dy="-401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
           <mxGeometry x="16" y="92.5" width="80" height="31" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-13" value="IO传递" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GSirU1bVMvHmUtakLMwt-11">
-          <mxGeometry x="16" y="37" width="80" height="31" as="geometry" />
+          <mxGeometry x="16" y="42.5" width="80" height="31" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-14" value="传递激励" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;" edge="1" parent="GSirU1bVMvHmUtakLMwt-3" source="GSirU1bVMvHmUtakLMwt-16" target="GSirU1bVMvHmUtakLMwt-11">
           <mxGeometry relative="1" as="geometry">
