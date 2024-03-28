@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T08:33:53.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YjZFhKTe7fDNVYoyRzRu" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T08:40:25.766Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="DPw-_5syMV1YGiea9KAF" version="24.0.4" type="github">
   <diagram name="第 1 页" id="bzBQHWBgV5mlvqt9g90e">
     <mxGraphModel dx="819" dy="-401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -75,12 +75,6 @@
         <mxCell id="LjgOpnGmxGzKYRoascXe-120" value="调度核 * 1" style="swimlane;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-118">
           <mxGeometry x="20" y="53" width="260" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-121" value="响应调度" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-120">
-          <mxGeometry x="160" y="39.5" width="80" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-122" value="下发状态" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-120">
-          <mxGeometry x="160" y="89.5" width="80" height="31" as="geometry" />
-        </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-191" value="unpack" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="LjgOpnGmxGzKYRoascXe-120" source="LjgOpnGmxGzKYRoascXe-137" target="LjgOpnGmxGzKYRoascXe-188">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -93,8 +87,17 @@
         <mxCell id="LjgOpnGmxGzKYRoascXe-192" value="pack" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LjgOpnGmxGzKYRoascXe-120" source="LjgOpnGmxGzKYRoascXe-188" target="LjgOpnGmxGzKYRoascXe-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-188" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-120">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-212" value="" style="group" vertex="1" connectable="0" parent="LjgOpnGmxGzKYRoascXe-120">
           <mxGeometry x="150" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-121" value="响应调度" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-212">
+          <mxGeometry x="10" y="9.5" width="80" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-122" value="下发状态" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-212">
+          <mxGeometry x="10" y="59.5" width="80" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-188" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-212">
+          <mxGeometry width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-123" value="计算核 * N" style="swimlane;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-118">
           <mxGeometry x="330" y="52" width="100" height="141" as="geometry" />
@@ -118,14 +121,8 @@
         <mxCell id="LjgOpnGmxGzKYRoascXe-128" value="SC_TOP" style="swimlane;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-127">
           <mxGeometry x="20" y="176.5" width="260" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-129" value="地址映射" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-128">
-          <mxGeometry x="21" y="106" width="80" height="31" as="geometry" />
-        </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-144" value="pack" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="LjgOpnGmxGzKYRoascXe-128" source="LjgOpnGmxGzKYRoascXe-145" target="LjgOpnGmxGzKYRoascXe-135">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-130" value="IO传递" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-128">
-          <mxGeometry x="21" y="54.5" width="80" height="31" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-135" value="输入FIFO/MEM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-128">
           <mxGeometry x="170" y="54.5" width="80" height="31" as="geometry" />
@@ -136,14 +133,23 @@
         <mxCell id="LjgOpnGmxGzKYRoascXe-136" value="输出FIFO/MEM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-128">
           <mxGeometry x="170" y="119" width="80" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-145" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-128">
-          <mxGeometry x="11" y="40" width="100" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-147" value="Writer" style="shape=actor;whiteSpace=wrap;html=1;fontColor=#FF3399;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-128">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-147" value="Writer" style="shape=actor;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-128">
           <mxGeometry x="220" y="30" width="20" height="24.5" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-148" value="Reader" style="shape=actor;whiteSpace=wrap;html=1;fontColor=#FF3399;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-128">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-148" value="Reader" style="shape=actor;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-128">
           <mxGeometry x="220" y="94.5" width="20" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-213" value="" style="group" vertex="1" connectable="0" parent="LjgOpnGmxGzKYRoascXe-128">
+          <mxGeometry x="11" y="40" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-129" value="地址映射" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-213">
+          <mxGeometry x="10" y="66" width="80" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-130" value="IO传递" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-213">
+          <mxGeometry x="10" y="14.5" width="80" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-145" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-213">
+          <mxGeometry width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-131" value="传递激励" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;" edge="1" parent="LjgOpnGmxGzKYRoascXe-127" source="LjgOpnGmxGzKYRoascXe-133" target="LjgOpnGmxGzKYRoascXe-128">
           <mxGeometry relative="1" as="geometry">
@@ -204,7 +210,7 @@
         <mxCell id="LjgOpnGmxGzKYRoascXe-171" value="&lt;span style=&quot;&quot;&gt;输入输出FIFO/MEM中数据条目的格式：&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="840" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-172" value="&lt;span style=&quot;&quot;&gt;问题：&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1.对于有多个时钟域的DUT模型，时戳是哪一个时钟的值？是多进程模型中的采样时钟的值吗？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;时戳是SC_TOP使用的sc_timestamp的值，不是采样时钟的值。&lt;/div&gt;&lt;div&gt;2.需要传递所有的参数吗？&lt;/div&gt;&lt;div&gt;输入输出数据中可能包含报文数据，每次都传递所有的数据，会导致数据量大，而实际变化的数据少，pack &amp;amp; write和read &amp;amp; unpack的效率比较低。所以，仅传递有变化的参数，减少数据量、提高效率。&lt;/div&gt;&lt;div&gt;3.只传递变化的数据，会不会导致数据量一直没法达到批量传递的门限而不能触发传递呢？&lt;/div&gt;&lt;div&gt;数据传递的门限不只被数据量大小触发，也被数据条目数量触发。即当数据条目累计到一定数量时，也会开启数据传递。&lt;/div&gt;&lt;div&gt;4.每个参数还需要传递参数的字节数信息吗？&lt;/div&gt;&lt;div&gt;编译完成之后，PC和CPU阵列两侧都有&lt;span style=&quot;background-color: initial;&quot;&gt;所有&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;参数的信息，可以不传递参数大小。也可以传递参数大小，用于数据完整性校验。时戳之后的字节数除了明确条目的结束位置之外，也是为了整体做完整性校验的，如果传递了每个参数大小做完整性校验，字节数可以改成参数个数。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5.&lt;font color=&quot;#ff3333&quot;&gt;FIFO/MEM怎么管理&lt;/font&gt;：只传递变化的数据，FIFO/MEM中每个数据条目长度不一致，FIFO/MEM的管理会复杂。当FIFO/MEM要满时，剩余的空间放不下当前的条目，怎么办呢？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6.如果某个时钟下，没有任何输入或者输出变化，还需要填充条目吗？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;有必要填充条目，用于同步时戳。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-172" value="&lt;span style=&quot;&quot;&gt;问题：&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1.对于有多个时钟域的DUT模型，时戳是哪一个时钟的值？是多进程模型中的采样时钟的值吗？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;时戳是SC_TOP使用的sc_timestamp的值，不是采样时钟的值。&lt;/div&gt;&lt;div&gt;2.需要传递所有的参数吗？&lt;/div&gt;&lt;div&gt;输入输出数据中可能包含报文数据，每次都传递所有的数据，会导致数据量大，而实际变化的数据少，pack &amp;amp; write和read &amp;amp; unpack的效率比较低。所以，仅传递有变化的参数，减少数据量、提高效率。&lt;/div&gt;&lt;div&gt;3.只传递变化的数据，会不会导致数据量一直没法达到批量传递的门限而不能触发传递呢？&lt;/div&gt;&lt;div&gt;数据传递的门限不只被数据量大小触发，也被数据条目数量触发。即当数据条目累计到一定数量时，也会开启数据传递。&lt;/div&gt;&lt;div&gt;4.每个参数还需要传递参数的字节数信息吗？&lt;/div&gt;&lt;div&gt;编译完成之后，PC和CPU阵列两侧都有&lt;span style=&quot;background-color: initial;&quot;&gt;所有&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;参数的信息，可以不传递参数大小。也可以传递参数大小，用于数据完整性校验。时戳之后的字节数除了明确条目的结束位置之外，也是为了整体做完整性校验的，如果传递了每个参数大小做完整性校验，字节数可以改成参数个数。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5.&lt;font color=&quot;#ff3333&quot;&gt;FIFO/MEM怎么管理&lt;/font&gt;：只传递变化的数据，FIFO/MEM中每个数据条目长度不一致，FIFO/MEM的管理会复杂。当FIFO/MEM要满时，剩余的空间放不下当前的条目，怎么办呢？即是否允许一个条目拆分成2部分跨过MEM边界存放？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6.如果某个时钟下，没有任何输入或者输出变化，还需要填充条目吗？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;有必要填充条目，用于同步时戳。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="943" width="480" height="307" as="geometry" />
         </mxCell>
         <mxCell id="LjgOpnGmxGzKYRoascXe-175" value="时戳" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -243,51 +249,66 @@
         <mxCell id="LjgOpnGmxGzKYRoascXe-187" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; Writer和Reader是SC_TOP启动的线程。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; PC和CPU阵列中各有输入和输出FIFO/MEM，PC输入FIFO/MEM单向传递数据给CPU阵列输入FIFO/MEM，CPU阵列输出FIFO/MEM单向传递数据给PC输出FIFO/MEM。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;两侧FIFO/MEM的差别：&lt;span style=&quot;background-color: initial;&quot;&gt;CPU阵列的FIFO应该是固定大小的，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PC侧FIFO&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是可自由伸缩的？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;CPU阵列的输入FIFO/MEM有2个门限：空门限和满门限，都是MEM字节数的比例；空门限表示输入FIFO/MEM将要清空，需要加快数据搬移，满门限表示输入FIFO/MEM将要溢出，需要减慢直至暂停数据搬移。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;SC_TOP&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;主线程Pack &amp;amp; push&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;：主线程中维护一个当前条目的Buffer，每个输入信号/参数的method内部检查信号的变化，如果有变化则将其ID、长度、数值等加入到Buffer中，增加字节数/参数个数；在request_update的update函数中填充时戳、拷贝当前条目的数据，并push到输入FIFO/MEM中，清空当前条目Buffer（仅恢复buffer指针到起始位置）。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;gt; &lt;b&gt;Writer搬移数据&lt;/b&gt;：&lt;span style=&quot;background-color: initial;&quot;&gt;Writer定时地&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（还是当FIFO/MEM中条目的数量或数据量（总字节数）、或者距上一次搬移的时间超过门限时？&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;获取CPU阵列输入FIFO/MEM的入队指针（&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;空闲空间的起始地址&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;）和空闲空间大小&lt;/font&gt;&lt;font style=&quot;background-color: initial;&quot; color=&quot;#ff3333&quot;&gt;（怎么获取？直接发起一次读取？如果空闲空间大于空门限，则减小定时间隔；如果空闲空间小于满门限，则增大定时间隔）&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;，然后将数据整体搬移写入CPU阵列的输入FIFO/MEM，最后&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot; color=&quot;#ff0000&quot;&gt;更新其入队指针（how？写入）&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;gt; &lt;b&gt;调度核pop &amp;amp; unpack&lt;/b&gt;：调度核从输入FIFO/MEM中的出队指针位置读取一个条目，并按照条目格式unpack变化的信号，增加出队指针（pop掉一个条目），然后发起调度计算。&lt;/div&gt;&lt;div&gt;&amp;gt; &lt;b&gt;调度核pack &amp;amp; push&lt;/b&gt;：调度核中维护上一次输出的信号值、输出FIFO/MEM的入队指针；调度核等待计算完成后，比较当前与上一次的输出信号，将变化的信号信息（ID、长度、数值）填充到FIFO/MEM入队指针对应条目中，并更新入队指针。&lt;/div&gt;&lt;div&gt;&amp;gt; &lt;b&gt;Reader搬移数据 &amp;amp; unpack&lt;/b&gt;：Reader定时地（&lt;font color=&quot;#ff0000&quot;&gt;无法获得合适的读取时机，一直读会不会因占用带宽而影响Writer写入？&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）获取&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU阵列的输出FIFO/MEM的出队指针和入队指针&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 51, 51); background-color: initial;&quot;&gt;（怎么获取？读取，采取Writer类似策略动态调整定时间隔）&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;，然后&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;从中读取所有条目，接着&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot; color=&quot;#ff0000&quot;&gt;更新出队指针（how？写入）&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;；最后逐条目unpack读取的数据，写入到SC_TOP的输出信号。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="1060" width="520" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-193" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="905" y="1430" width="50" height="43" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-211" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1410" y="1070" width="250" height="231" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-194" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="905" y="1473" width="50" height="70" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-208" value="" style="group" vertex="1" connectable="0" parent="LjgOpnGmxGzKYRoascXe-211">
+          <mxGeometry x="120" width="130" height="231" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-195" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="905" y="1543" width="50" height="43" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-206" value="Case 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-208">
+          <mxGeometry x="15" y="210" width="60" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-196" value="出队指针" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="955" y="1461" width="60" height="21" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-207" value="" style="group" vertex="1" connectable="0" parent="LjgOpnGmxGzKYRoascXe-208">
+          <mxGeometry width="130" height="196" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-197" value="入队指针" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="955" y="1533" width="60" height="21" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-198" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-207">
+          <mxGeometry x="20" y="20" width="50" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-198" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1045" y="1430" width="50" height="43" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-199" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-207">
+          <mxGeometry x="20" y="63" width="50" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-199" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1045" y="1473" width="50" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="LjgOpnGmxGzKYRoascXe-200" target="LjgOpnGmxGzKYRoascXe-198">
+        <mxCell id="LjgOpnGmxGzKYRoascXe-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="LjgOpnGmxGzKYRoascXe-207" source="LjgOpnGmxGzKYRoascXe-200" target="LjgOpnGmxGzKYRoascXe-198">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1070" y="1606" />
-              <mxPoint x="1025" y="1606" />
-              <mxPoint x="1025" y="1410" />
-              <mxPoint x="1070" y="1410" />
+              <mxPoint x="45" y="196" />
+              <mxPoint y="196" />
+              <mxPoint />
+              <mxPoint x="45" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-200" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1045" y="1543" width="50" height="43" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-200" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-207">
+          <mxGeometry x="20" y="133" width="50" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-201" value="出队指针" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1095" y="1533" width="60" height="21" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-201" value="出队指针" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-207">
+          <mxGeometry x="70" y="123" width="60" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-202" value="入队指针" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1095" y="1461" width="60" height="21" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-202" value="入队指针" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-207">
+          <mxGeometry x="70" y="51" width="60" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-205" value="Case 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="1620" width="60" height="21" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-210" value="" style="group" vertex="1" connectable="0" parent="LjgOpnGmxGzKYRoascXe-211">
+          <mxGeometry y="20" width="110" height="211" as="geometry" />
         </mxCell>
-        <mxCell id="LjgOpnGmxGzKYRoascXe-206" value="Case 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1620" width="60" height="21" as="geometry" />
+        <mxCell id="LjgOpnGmxGzKYRoascXe-205" value="Case 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-210">
+          <mxGeometry x="25" y="190" width="60" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-209" value="" style="group" vertex="1" connectable="0" parent="LjgOpnGmxGzKYRoascXe-210">
+          <mxGeometry width="110" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-193" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-209">
+          <mxGeometry width="50" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-194" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-209">
+          <mxGeometry y="43" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-195" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-209">
+          <mxGeometry y="113" width="50" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-196" value="出队指针" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-209">
+          <mxGeometry x="50" y="31" width="60" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="LjgOpnGmxGzKYRoascXe-197" value="入队指针" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LjgOpnGmxGzKYRoascXe-209">
+          <mxGeometry x="50" y="103" width="60" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
