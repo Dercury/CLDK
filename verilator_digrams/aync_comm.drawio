@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T02:41:37.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mIYHcXg9wNln_2aHjle4" version="24.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-03T07:19:07.336Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NF1FHWO7snAI82XTyapx" version="24.2.1" type="github" pages="2">
   <diagram id="0jPVEv1FSNv8W7Jhcmmu" name="平台迁移">
-    <mxGraphModel dx="1195" dy="-205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="-81" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,10 +115,10 @@
             <mxPoint x="41.999999999999886" y="193" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dmBtEK08cuGJ_-5J-6c5-2" value="LiteOS" style="swimlane;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="GSirU1bVMvHmUtakLMwt-3">
+        <mxCell id="dmBtEK08cuGJ_-5J-6c5-2" value="LiteOS" style="swimlane;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" parent="GSirU1bVMvHmUtakLMwt-3" vertex="1">
           <mxGeometry x="13" y="388.5" width="237" height="39.5" as="geometry" />
         </mxCell>
-        <mxCell id="dmBtEK08cuGJ_-5J-6c5-3" value="SystemC" style="swimlane;fontSize=14;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="GSirU1bVMvHmUtakLMwt-3">
+        <mxCell id="dmBtEK08cuGJ_-5J-6c5-3" value="SystemC" style="swimlane;fontSize=14;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" parent="GSirU1bVMvHmUtakLMwt-3" vertex="1">
           <mxGeometry x="13" y="338.5" width="237" height="39.5" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-6" value="计算核 * N" style="swimlane;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="GSirU1bVMvHmUtakLMwt-1" vertex="1">
@@ -143,7 +143,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pn4dx-L37PEnloAyXw5S-1" value="问题：&lt;div&gt;1. CPU阵列侧都没有操作系统，也没有Unibench/SystemC等依赖的各种系统库，怎么办？&lt;/div&gt;&lt;div&gt;答：使用LiteOS。&lt;/div&gt;&lt;div&gt;2.使用LiteOS可以吗？有没有RISCV32编译的LiteOS？&lt;/div&gt;&lt;div&gt;答：&lt;/div&gt;&lt;div&gt;3.LiteOS以及各种系统库的大小总计有多大，调度核能够获取足够的MEM空间吗？&lt;/div&gt;&lt;div&gt;答：https://gitcode.com/organization/HuaweiCloudDeveloper/65e68d39dcaa10382b960655.html&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="Pn4dx-L37PEnloAyXw5S-1" value="问题：&lt;div&gt;1. CPU阵列侧都没有操作系统，也没有Unibench/SystemC等依赖的各种系统库，怎么办？&lt;/div&gt;&lt;div&gt;答：使用LiteOS。&lt;/div&gt;&lt;div&gt;2.使用LiteOS可以吗？有没有RISCV32编译的LiteOS？&lt;/div&gt;&lt;div&gt;答：&lt;/div&gt;&lt;div&gt;3.LiteOS以及各种系统库的大小总计有多大，调度核能够获取足够的MEM空间吗？&lt;/div&gt;&lt;div&gt;答：https://gitcode.com/organization/HuaweiCloudDeveloper/65e68d39dcaa10382b960655.html&lt;/div&gt;&lt;div&gt;4.在单线程的PICO核上使用OS和SystemC速度会很慢吧，并且线程之间的相互等待会不会造成死锁？所以很可能需要升级调度核的硬件能力支持多线程。但是升级调度核硬件之后，必然导致它占用的FPGA资源增多，FPGA上能够部署的核数会减少，大模型需要的FPGA片数增多，FPGA之间的通信开销增多。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="30" y="1390" width="440" height="170" as="geometry" />
         </mxCell>
       </root>
