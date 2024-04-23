@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T02:45:15.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="b40IR__VzWZ9teHlrK_v" version="24.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-23T02:46:28.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xf37Lntw1q98mmvczwCg" version="24.2.7" type="github" pages="2">
   <diagram id="0jPVEv1FSNv8W7Jhcmmu" name="平台迁移">
     <mxGraphModel dx="1434" dy="-81" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="eGU-fNE6mhTSm2iBj2SR-1" value="CPU阵列" style="swimlane;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
-          <mxGeometry x="390" y="840" width="350" height="200" as="geometry" />
+          <mxGeometry x="419" y="975.75" width="350" height="200" as="geometry" />
         </mxCell>
         <mxCell id="eGU-fNE6mhTSm2iBj2SR-2" value="地&lt;br&gt;址&lt;br&gt;读&lt;br&gt;写" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=14;startArrow=classic;startFill=1;" parent="eGU-fNE6mhTSm2iBj2SR-1" source="eGU-fNE6mhTSm2iBj2SR-3" target="eGU-fNE6mhTSm2iBj2SR-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -67,7 +67,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-1" value="CPU阵列" style="swimlane;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
-          <mxGeometry x="490" y="1100" width="500" height="510" as="geometry" />
+          <mxGeometry x="587" y="1260" width="500" height="510" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-2" value="地&lt;br&gt;址&lt;br&gt;读&lt;br&gt;写" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=14;startArrow=classic;startFill=1;" parent="GSirU1bVMvHmUtakLMwt-1" source="GSirU1bVMvHmUtakLMwt-3" target="GSirU1bVMvHmUtakLMwt-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -131,7 +131,7 @@
           <mxGeometry x="20" y="90.5" width="80" height="31" as="geometry" />
         </mxCell>
         <mxCell id="GSirU1bVMvHmUtakLMwt-10" value="扣板 / PC" style="swimlane;fontSize=14;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-          <mxGeometry x="220" y="1230" width="170" height="150" as="geometry" />
+          <mxGeometry x="295" y="1440" width="170" height="150" as="geometry" />
         </mxCell>
         <mxCell id="vOXS9pKpRYlNJ04u-MNv-5" value="CLI" style="swimlane;fontSize=14;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="GSirU1bVMvHmUtakLMwt-10" vertex="1">
           <mxGeometry x="19.5" y="39" width="133" height="91" as="geometry" />
@@ -147,7 +147,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Pn4dx-L37PEnloAyXw5S-1" value="问题：&lt;div&gt;1. CPU阵列侧都没有操作系统，也没有Unibench/SystemC等依赖的各种系统库，怎么办？&lt;/div&gt;&lt;div&gt;答：使用LiteOS。&lt;/div&gt;&lt;div&gt;2.使用LiteOS可以吗？有没有RISCV32编译的LiteOS？&lt;/div&gt;&lt;div&gt;答：&lt;/div&gt;&lt;div&gt;3.LiteOS以及各种系统库的大小总计有多大，调度核能够获取足够的MEM空间吗？&lt;/div&gt;&lt;div&gt;答：https://gitcode.com/organization/HuaweiCloudDeveloper/65e68d39dcaa10382b960655.html&lt;/div&gt;&lt;div&gt;4.在单线程的PICO核上使用OS和SystemC速度会很慢吧，并且线程之间的相互等待会不会造成死锁？所以很可能需要升级调度核的硬件能力支持多线程。但是升级调度核硬件之后，必然导致它占用的FPGA资源增多，FPGA上能够部署的核数会减少，大模型需要的FPGA片数增多，FPGA之间的通信开销增多。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="30" y="1390" width="440" height="170" as="geometry" />
+          <mxGeometry x="45" y="1823" width="440" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
