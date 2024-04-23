@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T02:58:02.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="975nQ9NCNFbE9M5J-aoA" version="24.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-23T03:22:30.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dZUYzeOMx6vUCGgULFrB" version="24.2.7" type="github" pages="2">
   <diagram id="0jPVEv1FSNv8W7Jhcmmu" name="平台迁移">
     <mxGraphModel dx="1434" dy="-81" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -148,6 +148,9 @@
         </mxCell>
         <mxCell id="Pn4dx-L37PEnloAyXw5S-1" value="问题：&lt;div&gt;1. CPU阵列侧都没有操作系统，也没有Unibench/SystemC等依赖的各种系统库，怎么办？&lt;/div&gt;&lt;div&gt;答：使用LiteOS。&lt;/div&gt;&lt;div&gt;2.使用LiteOS可以吗？有没有RISCV32编译的LiteOS？&lt;/div&gt;&lt;div&gt;答：&lt;/div&gt;&lt;div&gt;3.LiteOS以及各种系统库的大小总计有多大，调度核能够获取足够的MEM空间吗？&lt;/div&gt;&lt;div&gt;答：https://gitcode.com/organization/HuaweiCloudDeveloper/65e68d39dcaa10382b960655.html&lt;/div&gt;&lt;div&gt;4.在单线程的PICO核上使用OS和SystemC速度会很慢吧，并且线程之间的相互等待会不会造成死锁？所以很可能需要升级调度核的硬件能力支持多线程。但是升级调度核硬件之后，必然导致它占用的FPGA资源增多，FPGA上能够部署的核数会减少，大模型需要的FPGA片数增多，FPGA之间的通信开销增多。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="37" y="2237" width="440" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="f5TpCnPFDTXZOmlApi-9-4" value="&lt;div&gt;Testbench平台迁移到FPGA单板的调度核上，需要调度核的功能增强：&lt;/div&gt;&lt;div&gt;(1)&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Testbench及其内部依赖的SystemC都要支持多线程、多进程，而现有的调度核只是简单地ALU封装，只能支持单线程；因此需要扩展调度核支持多个任务并行调度。调度核内需要有多个ALU，或者需要多个物理核；否则在单核上运行多线程或多进程的Unibench程序会非常缓慢。&lt;/div&gt;&lt;div&gt;(2)&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;多线程、多进程的调度和通信机制需要进程管理、内存管理等操作系统特性的支持，而现有的调度核是没有操作系统的；因此需要扩展调度核资源支持部署简单的操作系统，比如Huawei LiteOS，该OS最小可裁剪到仅需2KB RAM和6KB ROM，具体可参考：https://gitcode.com/organization/HuaweiCloudDeveloper/65e68d39dcaa10382b960655.html。&lt;/div&gt;&lt;div&gt;调度核的功能增强会引入新的问题：&lt;/div&gt;&lt;div&gt;(1)&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;资源占用：升级调度核硬件之后，必然导致它占用的FPGA资源增多，FPGA上能够部署的核数会减少，大模型需要的FPGA片数增多，FPGA之间的通信开销增多。&lt;/div&gt;&lt;div&gt;(2)&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;运行性能差：FPGA单板的主频只有50~250MHz，与通用服务器通常2.5GHz以上的主频相比，降低了10~50倍，所以其运行性能很可能非常差。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="86" y="1328" width="581" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
