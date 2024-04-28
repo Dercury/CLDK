@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T03:57:24.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WQMgZ-idAhdgQNGmhEfM" version="24.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-28T03:58:03.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ugeZa_M-gfqYgF7LRUle" version="24.2.7" type="github" pages="3">
   <diagram name="第 1 页" id="pytXW0pH3ZZm6s-A68JL">
     <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -751,10 +751,10 @@
         <mxCell id="DZbpi60VMevZV0wlzjLa-81" value="Task Management Unit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B266FF;gradientColor=#6600CC;strokeColor=#996185;fontSize=20;fontColor=#FFF2CC;" vertex="1" parent="1">
           <mxGeometry x="490" y="240" width="310" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DZbpi60VMevZV0wlzjLa-82" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;DASH&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Prioritized&lt;/b&gt; task dataflow&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+        <mxCell id="DZbpi60VMevZV0wlzjLa-82" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;DASH&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Prioritized&lt;/b&gt; task dataflow&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="440" y="320" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="DZbpi60VMevZV0wlzjLa-83" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;SASH&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Speculative&lt;/b&gt; task dataflow&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+        <mxCell id="DZbpi60VMevZV0wlzjLa-83" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;SASH&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Speculative&lt;/b&gt; task dataflow&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="640" y="320" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DZbpi60VMevZV0wlzjLa-84" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;fontColor=#67AB9F;strokeColor=#CC0066;" edge="1" parent="1" source="DZbpi60VMevZV0wlzjLa-81" target="DZbpi60VMevZV0wlzjLa-82">
