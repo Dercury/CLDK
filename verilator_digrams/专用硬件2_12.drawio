@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T02:30:28.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SoubMEqEZw_ur3-_9pgW" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T02:42:48.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EVuH7BVozWMFDdRg0_Av" version="24.2.7" type="github">
   <diagram name="第 1 页" id="Oi9lxVLDmaP7N0kQnI4Y">
     <mxGraphModel dx="1988" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -316,6 +316,15 @@
         </mxCell>
         <mxCell id="TrrRXMVcNxFXmYXb0s_2-74" value="OutArgBuf" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1750" y="44.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TrrRXMVcNxFXmYXb0s_2-85" value="GVT Arbiter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="320" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TrrRXMVcNxFXmYXb0s_2-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.925;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="TrrRXMVcNxFXmYXb0s_2-85" target="TrrRXMVcNxFXmYXb0s_2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrrRXMVcNxFXmYXb0s_2-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.935;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="TrrRXMVcNxFXmYXb0s_2-85" target="TrrRXMVcNxFXmYXb0s_2-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
