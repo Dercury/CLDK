@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T02:54:58.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="GiXRy3shQt4oIxV7641A" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T02:57:26.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="GmO6OqaOS25sEVHP2xYe" version="24.2.7" type="github">
   <diagram name="第 1 页" id="Oi9lxVLDmaP7N0kQnI4Y">
     <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -338,6 +338,22 @@
         </mxCell>
         <mxCell id="TrrRXMVcNxFXmYXb0s_2-101" value="Order Queue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="410" y="545" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TrrRXMVcNxFXmYXb0s_2-102" value="enqueue" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TrrRXMVcNxFXmYXb0s_2-104" target="TrrRXMVcNxFXmYXb0s_2-89">
+          <mxGeometry x="0.4142" y="25" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="425" y="810" as="sourcePoint" />
+            <mxPoint x="400" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrrRXMVcNxFXmYXb0s_2-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TrrRXMVcNxFXmYXb0s_2-104" target="TrrRXMVcNxFXmYXb0s_2-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="810" as="sourcePoint" />
+            <mxPoint x="435" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrrRXMVcNxFXmYXb0s_2-104" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Inter-Tile Network&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="480" y="770" width="185" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
