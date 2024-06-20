@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T03:30:48.323Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2ilebrVPDG-qjy7PrDJQ" version="24.4.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-20T03:36:47.584Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="zXfmIaXcvZqhJwZIrtx6" version="24.5.4" type="github" pages="2">
   <diagram name="第 1 页" id="pytXW0pH3ZZm6s-A68JL">
     <mxGraphModel dx="1434" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
         <mxCell id="Ojl2yvdV9hTWqdl5l4Is-30" value="SC&lt;br&gt;Top" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=20;fontSize=14;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="167" y="251" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Ojl2yvdV9hTWqdl5l4Is-31" value="CPU核阵列" style="swimlane;fontSize=14;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="Ojl2yvdV9hTWqdl5l4Is-31" value="众核阵列" style="swimlane;fontSize=14;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="304" y="461" width="255" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Ojl2yvdV9hTWqdl5l4Is-32" value="Schd Core&lt;br&gt;Hex" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" parent="Ojl2yvdV9hTWqdl5l4Is-31" vertex="1">
