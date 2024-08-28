@@ -235,6 +235,12 @@
         <mxCell id="2Wx2unt4PNLrUicuaQ1I-104" value="&lt;div&gt;50ns?&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="215" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="2Wx2unt4PNLrUicuaQ1I-105" value="3.0 GHz&lt;div&gt;0.33ns&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Wx2unt4PNLrUicuaQ1I-106" value="1.35 GHz&lt;div&gt;0.74ns&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
