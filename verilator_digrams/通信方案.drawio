@@ -507,6 +507,15 @@
         <mxCell id="2Wx2unt4PNLrUicuaQ1I-210" value="......" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="870" y="367" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="2Wx2unt4PNLrUicuaQ1I-211" value="NUMA节点内" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="333" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Wx2unt4PNLrUicuaQ1I-212" value="NUMA节点内" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="862.5" y="333" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Wx2unt4PNLrUicuaQ1I-213" value="NUMA节点&lt;div&gt;之间&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="752.5" y="333" width="75" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
