@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kT7_No3tEYe3_QvIvQaI-7" value="4(时序)" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+        <mxCell id="kT7_No3tEYe3_QvIvQaI-7" value="4(时序)" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="240" y="40" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kT7_No3tEYe3_QvIvQaI-8" value="9(组合)" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+        <mxCell id="kT7_No3tEYe3_QvIvQaI-8" value="9(组合)" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="470" y="40" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kT7_No3tEYe3_QvIvQaI-9" value="" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
@@ -22,13 +22,13 @@
         <mxCell id="kT7_No3tEYe3_QvIvQaI-13" value="" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kT7_No3tEYe3_QvIvQaI-14" value="13(时序)" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+        <mxCell id="kT7_No3tEYe3_QvIvQaI-14" value="13(时序)" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="700" y="40" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kT7_No3tEYe3_QvIvQaI-15" value="22(时序)" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+        <mxCell id="kT7_No3tEYe3_QvIvQaI-15" value="22(时序)" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1080" y="40" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kT7_No3tEYe3_QvIvQaI-16" value="18(组合)" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+        <mxCell id="kT7_No3tEYe3_QvIvQaI-16" value="18(组合)" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="890" y="40" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kT7_No3tEYe3_QvIvQaI-17" value="" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
