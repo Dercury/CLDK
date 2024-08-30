@@ -162,6 +162,9 @@
         <mxCell id="9udhq2torL1eLMPgQ3-c-52" value="&lt;div&gt;8r&lt;/div&gt;&lt;div&gt;13&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="850" y="120" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="9udhq2torL1eLMPgQ3-c-53" value="恢复完成" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1250" y="130" width="120" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
