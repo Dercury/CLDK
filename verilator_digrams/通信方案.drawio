@@ -391,7 +391,7 @@
           <mxGeometry x="230.63" y="200" width="18.75" height="36.88" as="geometry" />
         </mxCell>
         <mxCell id="CTDTndzelhHCpEJ_cwbs-7" value="&lt;div&gt;~300 cycles&lt;/div&gt;&lt;div&gt;100ns?&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="205" y="260" width="70" height="30" as="geometry" />
+          <mxGeometry x="205.01" y="252" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CTDTndzelhHCpEJ_cwbs-19" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="30" y="80" width="40" height="40" as="geometry" />
