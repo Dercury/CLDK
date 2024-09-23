@@ -10,7 +10,7 @@
         <mxCell id="d-3LwC6AzetS7NmKnezr-38" value="pop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d-3LwC6AzetS7NmKnezr-37" source="d-3LwC6AzetS7NmKnezr-39" target="d-3LwC6AzetS7NmKnezr-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d-3LwC6AzetS7NmKnezr-39" value="&lt;div&gt;Tile 0&lt;/div&gt;Circular FIFO" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-37">
+        <mxCell id="d-3LwC6AzetS7NmKnezr-39" value="&lt;div&gt;Tile 0&lt;/div&gt;Circular FIFO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;arguments&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-37">
           <mxGeometry x="30" y="50" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d-3LwC6AzetS7NmKnezr-40" value="Worker" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-37">
@@ -19,7 +19,7 @@
         <mxCell id="d-3LwC6AzetS7NmKnezr-44" value="pop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d-3LwC6AzetS7NmKnezr-37" source="d-3LwC6AzetS7NmKnezr-42" target="d-3LwC6AzetS7NmKnezr-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d-3LwC6AzetS7NmKnezr-42" value="&lt;div&gt;Tile 2&lt;/div&gt;Circular FIFO" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-37">
+        <mxCell id="d-3LwC6AzetS7NmKnezr-42" value="&lt;div&gt;Tile 2&lt;/div&gt;Circular FIFO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;arguments&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-37">
           <mxGeometry x="550" y="50" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d-3LwC6AzetS7NmKnezr-43" value="Worker" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-37">
@@ -28,7 +28,7 @@
         <mxCell id="d-3LwC6AzetS7NmKnezr-45" value="pop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d-3LwC6AzetS7NmKnezr-37" source="d-3LwC6AzetS7NmKnezr-46" target="d-3LwC6AzetS7NmKnezr-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d-3LwC6AzetS7NmKnezr-46" value="&lt;div&gt;Tile 1&lt;/div&gt;Circular FIFO" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-37">
+        <mxCell id="d-3LwC6AzetS7NmKnezr-46" value="&lt;div&gt;Tile 1&lt;/div&gt;Circular FIFO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;arguments&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-37">
           <mxGeometry x="290" y="50" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d-3LwC6AzetS7NmKnezr-47" value="Worker" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-37">
@@ -37,7 +37,7 @@
         <mxCell id="d-3LwC6AzetS7NmKnezr-48" value="pop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d-3LwC6AzetS7NmKnezr-37" source="d-3LwC6AzetS7NmKnezr-49" target="d-3LwC6AzetS7NmKnezr-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d-3LwC6AzetS7NmKnezr-49" value="&lt;div&gt;Tile 3&lt;/div&gt;Circular FIFO" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-37">
+        <mxCell id="d-3LwC6AzetS7NmKnezr-49" value="&lt;div&gt;Tile 3&lt;/div&gt;Circular FIFO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;arguments&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-37">
           <mxGeometry x="810" y="50" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d-3LwC6AzetS7NmKnezr-50" value="Worker" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-37">
@@ -68,7 +68,7 @@
         <mxCell id="d-3LwC6AzetS7NmKnezr-36" value="pop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d-3LwC6AzetS7NmKnezr-26" source="d-3LwC6AzetS7NmKnezr-29" target="d-3LwC6AzetS7NmKnezr-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d-3LwC6AzetS7NmKnezr-29" value="Circular FIFO" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-26">
+        <mxCell id="d-3LwC6AzetS7NmKnezr-29" value="Circular FIFO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;arguments&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-26">
           <mxGeometry x="30" y="50" width="110" height="150" as="geometry" />
         </mxCell>
         <mxCell id="d-3LwC6AzetS7NmKnezr-33" value="Worker" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-26">
@@ -89,7 +89,7 @@
         <mxCell id="d-3LwC6AzetS7NmKnezr-59" value="AQ" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-54">
           <mxGeometry x="30" y="50" width="170" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="d-3LwC6AzetS7NmKnezr-60" value="Priority FIFO" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-59">
+        <mxCell id="d-3LwC6AzetS7NmKnezr-60" value="Priority FIFO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;arguments&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-59">
           <mxGeometry x="30" y="50" width="110" height="150" as="geometry" />
         </mxCell>
         <mxCell id="d-3LwC6AzetS7NmKnezr-72" value="Merger" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-54">
@@ -100,7 +100,7 @@
             <mxPoint x="100" y="126" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d-3LwC6AzetS7NmKnezr-73" value="Slot Array" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-72">
+        <mxCell id="d-3LwC6AzetS7NmKnezr-73" value="Slot Array&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;args-&amp;gt;task&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-72">
           <mxGeometry x="25" y="216" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="d-3LwC6AzetS7NmKnezr-79" value="merge" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="d-3LwC6AzetS7NmKnezr-72" source="d-3LwC6AzetS7NmKnezr-74" target="d-3LwC6AzetS7NmKnezr-73">
@@ -112,7 +112,7 @@
         <mxCell id="d-3LwC6AzetS7NmKnezr-75" value="RTB" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-54">
           <mxGeometry x="555" y="50" width="170" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="d-3LwC6AzetS7NmKnezr-76" value="Circular FIFO" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-75">
+        <mxCell id="d-3LwC6AzetS7NmKnezr-76" value="Circular FIFO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;tasks&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d-3LwC6AzetS7NmKnezr-75">
           <mxGeometry x="30" y="50" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="d-3LwC6AzetS7NmKnezr-77" value="pop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d-3LwC6AzetS7NmKnezr-54" source="d-3LwC6AzetS7NmKnezr-76" target="d-3LwC6AzetS7NmKnezr-31">
