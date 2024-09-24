@@ -186,7 +186,7 @@
         <mxCell id="OI3NP-LYjU-ru6JEcSei-71" value="pop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="OI3NP-LYjU-ru6JEcSei-17" source="OI3NP-LYjU-ru6JEcSei-67" target="OI3NP-LYjU-ru6JEcSei-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OI3NP-LYjU-ru6JEcSei-73" value="abort" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#FF0000;fontColor=#FF0000;" edge="1" parent="OI3NP-LYjU-ru6JEcSei-17" source="OI3NP-LYjU-ru6JEcSei-62" target="OI3NP-LYjU-ru6JEcSei-20">
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-73" value="abort message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#FF0000;fontColor=#FF0000;dashed=1;dashPattern=8 8;" edge="1" parent="OI3NP-LYjU-ru6JEcSei-17" source="OI3NP-LYjU-ru6JEcSei-62" target="OI3NP-LYjU-ru6JEcSei-20">
           <mxGeometry x="-0.3215" relative="1" as="geometry">
             <mxPoint x="1090" y="440.0000000000002" as="targetPoint" />
             <mxPoint as="offset" />
