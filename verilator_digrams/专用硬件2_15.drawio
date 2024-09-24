@@ -63,7 +63,7 @@
           <mxGeometry x="40" y="40" width="1530" height="720" as="geometry" />
         </mxCell>
         <mxCell id="OI3NP-LYjU-ru6JEcSei-58" value="TCQ" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-17">
-          <mxGeometry x="680" y="50" width="170" height="290" as="geometry" />
+          <mxGeometry x="680" y="50" width="170" height="330" as="geometry" />
         </mxCell>
         <mxCell id="OI3NP-LYjU-ru6JEcSei-59" value="Circular FIFO" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-58">
           <mxGeometry x="30" y="50" width="110" height="150" as="geometry" />
@@ -79,6 +79,9 @@
         </mxCell>
         <mxCell id="OI3NP-LYjU-ru6JEcSei-70" value="Aborted" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-58">
           <mxGeometry x="30" y="152" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-72" value="Commiter" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-58">
+          <mxGeometry x="100" y="230" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OI3NP-LYjU-ru6JEcSei-18" value="ASB" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;fontSize=14;swimlaneFillColor=none;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-17">
           <mxGeometry x="1230" y="46" width="270" height="330" as="geometry" />
@@ -185,7 +188,7 @@
         <mxCell id="OI3NP-LYjU-ru6JEcSei-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="OI3NP-LYjU-ru6JEcSei-17" source="OI3NP-LYjU-ru6JEcSei-62" target="OI3NP-LYjU-ru6JEcSei-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OI3NP-LYjU-ru6JEcSei-62" value="Checker" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-17">
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-62" value="Checker" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-17">
           <mxGeometry x="230" y="360" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OI3NP-LYjU-ru6JEcSei-71" value="pop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="OI3NP-LYjU-ru6JEcSei-17" source="OI3NP-LYjU-ru6JEcSei-67" target="OI3NP-LYjU-ru6JEcSei-22">
