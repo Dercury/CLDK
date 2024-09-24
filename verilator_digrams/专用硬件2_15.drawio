@@ -204,15 +204,15 @@
         <mxCell id="OI3NP-LYjU-ru6JEcSei-74" value="Idle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-33">
           <mxGeometry x="30" y="110" width="110" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OI3NP-LYjU-ru6JEcSei-75" value="abort" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#FF0000;fontColor=#FF0000;" edge="1" parent="OI3NP-LYjU-ru6JEcSei-17" source="OI3NP-LYjU-ru6JEcSei-62" target="OI3NP-LYjU-ru6JEcSei-34">
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#FF0000;fontColor=#FF0000;" edge="1" parent="OI3NP-LYjU-ru6JEcSei-17" source="OI3NP-LYjU-ru6JEcSei-62" target="OI3NP-LYjU-ru6JEcSei-34">
           <mxGeometry x="0.1445" y="40" relative="1" as="geometry">
             <mxPoint x="1325" y="256" as="targetPoint" />
             <mxPoint x="260" y="370" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OI3NP-LYjU-ru6JEcSei-76" value="&lt;div style=&quot;text-align: center;&quot;&gt;abort&lt;/div&gt;&lt;div&gt;Idle任务：checker负责abort&lt;/div&gt;Running任务：core负责abort，设置finish之前检查是否aborted，如果是，则发送abort消息&lt;div&gt;Finished任务：&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-17">
-          <mxGeometry x="950" y="364" width="210" height="96" as="geometry" />
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-76" value="&lt;div style=&quot;text-align: center;&quot;&gt;abort&lt;/div&gt;&lt;div&gt;&lt;b&gt;Idle任务&lt;/b&gt;：checker负责abort。&lt;font color=&quot;#ff0000&quot;&gt;一定要abort吗？将新参数合入进去不行吗？&lt;/font&gt;&lt;/div&gt;&lt;b&gt;Running任务&lt;/b&gt;：core负责abort，设置finish之前检查是否aborted，如果是，则发送abort消息。&lt;font color=&quot;#ff0000&quot;&gt;能够保证push_args都在abort检查之后吗，如果可以，是不是就不用发送abort消息了？&lt;/font&gt;&lt;div&gt;&lt;b&gt;Finished任务&lt;/b&gt;：checker负责abort，发送abort消息给子任务。&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;如何abort？&lt;/b&gt;将任务重新排队到AQ，是不是要把任务拆分成参数？被&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;中止的任务通常会是高优先级的，&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;是不是应该合并参数后将任务加入RTB？&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-17">
+          <mxGeometry x="910" y="364" width="300" height="166" as="geometry" />
         </mxCell>
         <mxCell id="OI3NP-LYjU-ru6JEcSei-40" value="push" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OI3NP-LYjU-ru6JEcSei-4" target="OI3NP-LYjU-ru6JEcSei-62">
           <mxGeometry relative="1" as="geometry">
