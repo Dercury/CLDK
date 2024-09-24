@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="bIVpFGI0XpWCurFE0BPE">
-    <mxGraphModel dx="1195" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
         <mxCell id="OI3NP-LYjU-ru6JEcSei-17" value="Tile 0" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="1530" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="OI3NP-LYjU-ru6JEcSei-58" value="TCQ" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-17">
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-58" value="TCQ" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-17">
           <mxGeometry x="690" y="240" width="170" height="310" as="geometry" />
         </mxCell>
         <mxCell id="OI3NP-LYjU-ru6JEcSei-59" value="Array" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-58">
@@ -198,10 +198,10 @@
         <mxCell id="OI3NP-LYjU-ru6JEcSei-34" value="Circular FIFO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;tasks&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-33">
           <mxGeometry x="30" y="50" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="OI3NP-LYjU-ru6JEcSei-67" value="Idle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-33">
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-67" value="Idle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-33">
           <mxGeometry x="30" y="84" width="110" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OI3NP-LYjU-ru6JEcSei-74" value="Idle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-33">
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-74" value="Idle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-33">
           <mxGeometry x="30" y="110" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OI3NP-LYjU-ru6JEcSei-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#FF0000;fontColor=#FF0000;" edge="1" parent="OI3NP-LYjU-ru6JEcSei-17" source="OI3NP-LYjU-ru6JEcSei-62" target="OI3NP-LYjU-ru6JEcSei-34">
@@ -221,6 +221,27 @@
         </mxCell>
         <mxCell id="OI3NP-LYjU-ru6JEcSei-53" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="1180" y="100" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-77" value="GVT Arbiter" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="517" width="170" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-78" value="Array" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-77">
+          <mxGeometry x="30" y="50" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-79" value="tile0 LVT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-77">
+          <mxGeometry x="30" y="100" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-80" value="tile1 LVT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-77">
+          <mxGeometry x="30" y="126" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-81" value="tile2 LVT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-77">
+          <mxGeometry x="30" y="152" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-82" value="Commiter" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-77">
+          <mxGeometry x="55" y="220" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-83" value="tile3 LVT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-77">
+          <mxGeometry x="30" y="178" width="110" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
