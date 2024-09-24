@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="bIVpFGI0XpWCurFE0BPE">
-    <mxGraphModel dx="2607" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -220,7 +220,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OI3NP-LYjU-ru6JEcSei-150" value="&lt;div style=&quot;text-align: center;&quot;&gt;abort&lt;/div&gt;&lt;div&gt;&lt;b&gt;Idle任务&lt;/b&gt;：checker负责abort。&lt;font color=&quot;#ff0000&quot;&gt;一定要abort吗？将新参数合入进去不行吗？&lt;/font&gt;&lt;/div&gt;&lt;b&gt;Running任务&lt;/b&gt;：core负责abort，设置finish之前检查是否aborted，如果是，则发送abort消息。&lt;font color=&quot;#ff0000&quot;&gt;能够保证push_args都在abort检查之后吗，如果可以，是不是就不用发送abort消息了？&lt;/font&gt;&lt;div&gt;&lt;b&gt;Finished任务&lt;/b&gt;：checker负责abort，发送abort消息给子任务。&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;如何abort？&lt;/b&gt;将任务重新排队到AQ，是不是要把任务拆分成参数？&lt;b&gt;被&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;中止的任务通常会是高优先级的，&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;是不是应该合并参数后将任务加入RTB？&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-100">
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-150" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;abort&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Idle任务&lt;/b&gt;：checker负责abort。&lt;font color=&quot;#ff0000&quot;&gt;一定要abort吗？将新参数合入进去不行吗？&lt;/font&gt;&lt;/div&gt;&lt;b&gt;Running任务&lt;/b&gt;：core负责abort，设置finish之前检查是否aborted，如果是，则发送abort消息。&lt;font color=&quot;#ff0000&quot;&gt;能够保证push_args都在abort检查之后吗，如果可以，是不是就不用发送abort消息了？&lt;/font&gt;&lt;div&gt;&lt;b&gt;Finished任务&lt;/b&gt;：checker负责abort，发送abort消息给子任务。&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;如何abort？&lt;/b&gt;将任务重新排队到AQ，是不是要把任务拆分成参数？&lt;b&gt;被&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;中止的任务通常会是高优先级的，&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;是不是应该合并参数后将任务加入RTB？&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OI3NP-LYjU-ru6JEcSei-100">
           <mxGeometry x="950" y="360" width="300" height="166" as="geometry" />
         </mxCell>
         <mxCell id="OI3NP-LYjU-ru6JEcSei-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;elbow=vertical;" edge="1" parent="OI3NP-LYjU-ru6JEcSei-100" source="OI3NP-LYjU-ru6JEcSei-152" target="OI3NP-LYjU-ru6JEcSei-106">
@@ -269,6 +269,9 @@
         </mxCell>
         <mxCell id="OI3NP-LYjU-ru6JEcSei-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;elbow=vertical;curved=1;" edge="1" parent="1" source="OI3NP-LYjU-ru6JEcSei-162" target="OI3NP-LYjU-ru6JEcSei-106">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OI3NP-LYjU-ru6JEcSei-166" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;问题&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1. 传递参数的消息、关联的abort消息经过&lt;b&gt;NoC&lt;/b&gt;之后一定能够保证顺序吗？abort如果先到达会不会导致中止失败？&lt;/div&gt;&lt;div&gt;2. 收集各个tile的LVT计算GVT时，如果&lt;b&gt;NoC&lt;/b&gt;中存在更小的时间戳的消息怎么办？&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="650" width="320" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
