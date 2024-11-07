@@ -286,7 +286,7 @@
         <mxCell id="6QlyaUxZzLdIx7xPI77c-72" value="OutArgBuf" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1750" y="44.5" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6QlyaUxZzLdIx7xPI77c-73" value="GVT Arbiter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" parent="1" vertex="1">
+        <mxCell id="6QlyaUxZzLdIx7xPI77c-73" value="GVT Arbiter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1100" y="320" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6QlyaUxZzLdIx7xPI77c-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.925;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="1" source="6QlyaUxZzLdIx7xPI77c-73" target="6QlyaUxZzLdIx7xPI77c-51" edge="1">
