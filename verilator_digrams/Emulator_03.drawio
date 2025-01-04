@@ -518,7 +518,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D74TR6SnFDzBrUBwtWsB-423" value="LUT" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;size=15;direction=south;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="D74TR6SnFDzBrUBwtWsB-423" value="LUT" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;size=15;direction=south;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="469" y="1462" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="D74TR6SnFDzBrUBwtWsB-424" value="Logic Element" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
