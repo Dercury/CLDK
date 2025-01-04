@@ -766,7 +766,7 @@
           <mxGeometry x="1280" y="1460" width="30" height="69" as="geometry" />
         </mxCell>
         <mxCell id="OTiE1DgUsNXGizuFciAO-17" value="" style="group;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1191" y="1495" width="50" height="68" as="geometry" />
+          <mxGeometry x="1180" y="1495" width="50" height="68" as="geometry" />
         </mxCell>
         <mxCell id="OTiE1DgUsNXGizuFciAO-11" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;FF&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="OTiE1DgUsNXGizuFciAO-17">
           <mxGeometry width="50" height="68" as="geometry" />
