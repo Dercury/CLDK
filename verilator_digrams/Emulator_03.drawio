@@ -440,7 +440,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D74TR6SnFDzBrUBwtWsB-407" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Left Control Store&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;br&gt;128x17" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="D74TR6SnFDzBrUBwtWsB-407" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Left Control Store&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;br&gt;128x17" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="170" y="1287" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="D74TR6SnFDzBrUBwtWsB-408" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="D74TR6SnFDzBrUBwtWsB-412" target="D74TR6SnFDzBrUBwtWsB-419" edge="1">
@@ -465,7 +465,7 @@
         <mxCell id="D74TR6SnFDzBrUBwtWsB-411" value="8b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;endArrow=classic;endFill=1;shape=flexArrow;" parent="1" source="D74TR6SnFDzBrUBwtWsB-412" target="D74TR6SnFDzBrUBwtWsB-423" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D74TR6SnFDzBrUBwtWsB-412" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Right Control Store&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;128x32&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="D74TR6SnFDzBrUBwtWsB-412" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Right Control Store&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;128x32&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="340" y="1287" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="D74TR6SnFDzBrUBwtWsB-413" value="3b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;endArrow=classic;endFill=1;" parent="1" source="D74TR6SnFDzBrUBwtWsB-414" target="D74TR6SnFDzBrUBwtWsB-433" edge="1">
@@ -478,7 +478,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D74TR6SnFDzBrUBwtWsB-414" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Input Stack&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;128x1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="D74TR6SnFDzBrUBwtWsB-414" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Input Stack&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;128x1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="475" y="1287" width="59" height="100" as="geometry" />
         </mxCell>
         <mxCell id="D74TR6SnFDzBrUBwtWsB-415" value="3b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;endArrow=classic;endFill=1;" parent="1" source="D74TR6SnFDzBrUBwtWsB-416" target="D74TR6SnFDzBrUBwtWsB-433" edge="1">
@@ -491,7 +491,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D74TR6SnFDzBrUBwtWsB-416" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Data Stack&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;128x1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="D74TR6SnFDzBrUBwtWsB-416" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Data Stack&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;128x1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="534" y="1287" width="60" height="100" as="geometry" />
         </mxCell>
         <mxCell id="D74TR6SnFDzBrUBwtWsB-417" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;size=10;direction=north;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -588,16 +588,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D74TR6SnFDzBrUBwtWsB-439" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=middle;dashed=1;gradientColor=#b3b3b3;" parent="1" vertex="1">
+        <mxCell id="D74TR6SnFDzBrUBwtWsB-439" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=middle;dashed=1;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="219" y="1687" width="310" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="D74TR6SnFDzBrUBwtWsB-440" value="MUX" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.abstract.mux2;flipV=0;direction=east;flipH=0;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+        <mxCell id="D74TR6SnFDzBrUBwtWsB-440" value="MUX" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.abstract.mux2;flipV=0;direction=east;flipH=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="270" y="1717" width="40" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="D74TR6SnFDzBrUBwtWsB-441" value="MUX" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.abstract.mux2;flipV=0;direction=east;flipH=0;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+        <mxCell id="D74TR6SnFDzBrUBwtWsB-441" value="MUX" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.abstract.mux2;flipV=0;direction=east;flipH=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="387.75" y="1717" width="40" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="D74TR6SnFDzBrUBwtWsB-442" value="MUX" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.abstract.mux2;flipV=0;direction=east;flipH=0;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+        <mxCell id="D74TR6SnFDzBrUBwtWsB-442" value="MUX" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.abstract.mux2;flipV=0;direction=east;flipH=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="329" y="1717" width="40" height="55" as="geometry" />
         </mxCell>
         <mxCell id="D74TR6SnFDzBrUBwtWsB-443" value="Inter-Connection Network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#7F00FF;" parent="1" vertex="1">
@@ -615,7 +615,7 @@
         <mxCell id="D74TR6SnFDzBrUBwtWsB-446" value="Node Address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="109" y="1677" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="D74TR6SnFDzBrUBwtWsB-447" value="MUX" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.abstract.mux2;flipV=0;direction=east;flipH=0;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+        <mxCell id="D74TR6SnFDzBrUBwtWsB-447" value="MUX" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.abstract.mux2;flipV=0;direction=east;flipH=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="451.5" y="1717" width="40" height="55" as="geometry" />
         </mxCell>
         <mxCell id="D74TR6SnFDzBrUBwtWsB-448" value="Node Bit In" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
