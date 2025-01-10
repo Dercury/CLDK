@@ -58,7 +58,7 @@
         <mxCell id="3ZA38Qdof7UkEv3v06N_-19" value="指令生成" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="60" y="280" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3ZA38Qdof7UkEv3v06N_-21" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-21" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="142.5" width="40" height="185" as="geometry" />
         </mxCell>
       </root>
