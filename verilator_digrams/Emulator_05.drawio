@@ -22,19 +22,19 @@
         <mxCell id="3ZA38Qdof7UkEv3v06N_-4" value="技术映射" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="60" y="160" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3ZA38Qdof7UkEv3v06N_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-5" target="3ZA38Qdof7UkEv3v06N_-6">
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#000000;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-5" target="3ZA38Qdof7UkEv3v06N_-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3ZA38Qdof7UkEv3v06N_-5" value="分割" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="200" y="130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3ZA38Qdof7UkEv3v06N_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-6" target="3ZA38Qdof7UkEv3v06N_-7">
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#000000;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-6" target="3ZA38Qdof7UkEv3v06N_-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3ZA38Qdof7UkEv3v06N_-6" value="布局" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="200" y="190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3ZA38Qdof7UkEv3v06N_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-7" target="3ZA38Qdof7UkEv3v06N_-8">
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#000000;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-7" target="3ZA38Qdof7UkEv3v06N_-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3ZA38Qdof7UkEv3v06N_-7" value="调度" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -73,7 +73,7 @@
         <mxCell id="3ZA38Qdof7UkEv3v06N_-26" value="EP指令程序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="100" y="310" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3ZA38Qdof7UkEv3v06N_-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="170" y="140" width="30" height="190" as="geometry" />
         </mxCell>
       </root>
