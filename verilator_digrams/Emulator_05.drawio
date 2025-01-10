@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
   <diagram name="第 1 页" id="RCwNGJFsyMsz7Nk2K8cK">
-    <mxGraphModel>
+    <mxGraphModel dx="819" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-2" target="3ZA38Qdof7UkEv3v06N_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-2" value="开始" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-3" target="3ZA38Qdof7UkEv3v06N_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-3" value="逻辑综合" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-4" target="3ZA38Qdof7UkEv3v06N_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-4" value="技术映射" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-5" target="3ZA38Qdof7UkEv3v06N_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-5" value="分割" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-6" target="3ZA38Qdof7UkEv3v06N_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-6" value="布局" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-7" target="3ZA38Qdof7UkEv3v06N_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-7" value="调度" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-8" value="布线" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-9" target="3ZA38Qdof7UkEv3v06N_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-9" value="三维调度" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-10" value="完成" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ZA38Qdof7UkEv3v06N_-19" target="3ZA38Qdof7UkEv3v06N_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-19" value="指令生成" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZA38Qdof7UkEv3v06N_-21" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="142.5" width="40" height="185" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
