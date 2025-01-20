@@ -459,6 +459,12 @@
         <mxCell id="vaKVtnOGIOfhQOoNVJ05-11" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="260" width="20" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="vaKVtnOGIOfhQOoNVJ05-13" value="0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="285" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="vaKVtnOGIOfhQOoNVJ05-14" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="265" width="10" height="10" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
