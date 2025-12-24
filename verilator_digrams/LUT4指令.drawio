@@ -1,9 +1,153 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="6G_Fn8_-wW1-x3h-UXdR">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Left Control Store" vertex="1">
+          <mxGeometry height="190" width="330" x="30" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-2" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Node Address&lt;br&gt;6b" vertex="1">
+          <mxGeometry height="40" width="50" x="70" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-3" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Memory Operation&lt;br&gt;1b" vertex="1">
+          <mxGeometry height="40" width="50" x="269" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-4" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Path Control&lt;br&gt;3b" vertex="1">
+          <mxGeometry height="40" width="50" x="120" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-5" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Latch Control&lt;br&gt;4b" vertex="1">
+          <mxGeometry height="40" width="50" x="170" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-6" parent="SLBweGkhOxUMBM4LDiEB-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="512 x (2+6+3+9+1) = 512 x 21b" vertex="1">
+          <mxGeometry height="30" width="310" x="10" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-7" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Node Address&lt;br&gt;6b" vertex="1">
+          <mxGeometry height="40" width="50" x="70" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-8" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Memory Operation&lt;br&gt;1b" vertex="1">
+          <mxGeometry height="40" width="50" x="269" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-9" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Path Control&lt;br&gt;3b" vertex="1">
+          <mxGeometry height="40" width="50" x="120" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-10" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#FF00FF;" value="Memory Address&lt;br&gt;9b" vertex="1">
+          <mxGeometry height="40" width="101" x="169" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-11" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Source Control&lt;br&gt;5b" vertex="1">
+          <mxGeometry height="40" width="50" x="219" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-12" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="First&lt;br&gt;Trace&lt;br&gt;1b" vertex="1">
+          <mxGeometry height="40" width="30" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-13" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Other&lt;br&gt;Trace&lt;br&gt;1b" vertex="1">
+          <mxGeometry height="40" width="30" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-14" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="First&lt;br&gt;Trace&lt;br&gt;1b" vertex="1">
+          <mxGeometry height="40" width="30" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-15" parent="SLBweGkhOxUMBM4LDiEB-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Other&lt;br&gt;Trace&lt;br&gt;1b" vertex="1">
+          <mxGeometry height="40" width="30" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-16" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Right Control Store" vertex="1">
+          <mxGeometry height="190" width="320" x="460" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-17" parent="SLBweGkhOxUMBM4LDiEB-16" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="512 x (3+16+4X9) = 512 x 55b" vertex="1">
+          <mxGeometry height="30" width="300" x="10" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-18" parent="SLBweGkhOxUMBM4LDiEB-16" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Read Addr C&lt;br&gt;9b" vertex="1">
+          <mxGeometry height="40" width="50" x="209.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-19" parent="SLBweGkhOxUMBM4LDiEB-16" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Logic Function&lt;br&gt;16b" vertex="1">
+          <mxGeometry height="40" width="50" x="60.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-20" parent="SLBweGkhOxUMBM4LDiEB-16" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Read Addr A&lt;br&gt;9b" vertex="1">
+          <mxGeometry height="40" width="50" x="110.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-21" parent="SLBweGkhOxUMBM4LDiEB-16" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Read Addr B&lt;br&gt;9b" vertex="1">
+          <mxGeometry height="40" width="50" x="160.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-22" parent="SLBweGkhOxUMBM4LDiEB-16" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#FF00FF;" value="Memory Element (32b)" vertex="1">
+          <mxGeometry height="40" width="179.5" x="130" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-23" parent="SLBweGkhOxUMBM4LDiEB-16" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Read Addr D&lt;br&gt;9b" vertex="1">
+          <mxGeometry height="40" width="50" x="259.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-24" parent="SLBweGkhOxUMBM4LDiEB-16" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Source Control&lt;br&gt;3b" vertex="1">
+          <mxGeometry height="40" width="50" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-25" parent="SLBweGkhOxUMBM4LDiEB-16" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Rsv&lt;br&gt;23b" vertex="1">
+          <mxGeometry height="40" width="120" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-26" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Left Control Store" vertex="1">
+          <mxGeometry height="190" width="270" x="30" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-27" parent="SLBweGkhOxUMBM4LDiEB-26" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Node Address" vertex="1">
+          <mxGeometry height="40" width="50" x="10.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-28" parent="SLBweGkhOxUMBM4LDiEB-26" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Memory Operation" vertex="1">
+          <mxGeometry height="40" width="50" x="209.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-29" parent="SLBweGkhOxUMBM4LDiEB-26" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Path Control" vertex="1">
+          <mxGeometry height="40" width="50" x="60.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-30" parent="SLBweGkhOxUMBM4LDiEB-26" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Latch Control" vertex="1">
+          <mxGeometry height="40" width="50" x="110.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-31" parent="SLBweGkhOxUMBM4LDiEB-26" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Source Control" vertex="1">
+          <mxGeometry height="40" width="50" x="160.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-32" parent="SLBweGkhOxUMBM4LDiEB-26" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="128 x 16" vertex="1">
+          <mxGeometry height="30" width="60" x="100.5" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-33" parent="SLBweGkhOxUMBM4LDiEB-26" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Node Address" vertex="1">
+          <mxGeometry height="40" width="50" x="11" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-34" parent="SLBweGkhOxUMBM4LDiEB-26" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Memory Operation" vertex="1">
+          <mxGeometry height="40" width="50" x="210" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-35" parent="SLBweGkhOxUMBM4LDiEB-26" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Path Control" vertex="1">
+          <mxGeometry height="40" width="50" x="61" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-36" parent="SLBweGkhOxUMBM4LDiEB-26" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#FF00FF;" value="Memory Address" vertex="1">
+          <mxGeometry height="40" width="101" x="110" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-37" parent="SLBweGkhOxUMBM4LDiEB-26" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;dashed=1;strokeColor=#FF00FF;fontSize=14;fontColor=#FF00FF;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="167" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-38" edge="1" parent="SLBweGkhOxUMBM4LDiEB-26" source="SLBweGkhOxUMBM4LDiEB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;endArrow=none;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#7F00FF;" target="SLBweGkhOxUMBM4LDiEB-37" value="3b">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="187" y="90" />
+            </Array>
+            <mxPoint x="185.5" y="90" as="sourcePoint" />
+            <mxPoint x="340" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-39" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Right Control Store" vertex="1">
+          <mxGeometry height="190" width="270" x="460" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-40" parent="SLBweGkhOxUMBM4LDiEB-39" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="128 x 32" vertex="1">
+          <mxGeometry height="30" width="60" x="100.5" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-41" parent="SLBweGkhOxUMBM4LDiEB-39" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Source Control" vertex="1">
+          <mxGeometry height="40" width="50" x="10.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-42" parent="SLBweGkhOxUMBM4LDiEB-39" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Read Addr C" vertex="1">
+          <mxGeometry height="40" width="50" x="209.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-43" parent="SLBweGkhOxUMBM4LDiEB-39" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Logic Function" vertex="1">
+          <mxGeometry height="40" width="50" x="60.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-44" parent="SLBweGkhOxUMBM4LDiEB-39" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Read Addr A" vertex="1">
+          <mxGeometry height="40" width="50" x="110.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-45" parent="SLBweGkhOxUMBM4LDiEB-39" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#7F00FF;" value="Read Addr B" vertex="1">
+          <mxGeometry height="40" width="50" x="160.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SLBweGkhOxUMBM4LDiEB-46" parent="SLBweGkhOxUMBM4LDiEB-39" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontColor=#FF00FF;" value="Memory Element (32b)" vertex="1">
+          <mxGeometry height="40" width="249.5" x="10" y="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
